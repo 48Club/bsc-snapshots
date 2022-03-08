@@ -8,7 +8,7 @@ Step 1: Download
 
 - Get [latest.torrent](https://raw.githubusercontent.com/du5/bsc-snapshots/main/latest.torrent)
 
-- Download DB(*from block [15787665](https://bscscan.com/block/15787665)*) using magnet tools 🧲, u can use qbittorrent or transmission to download.
+- Download DB(*from block [15879128](https://bscscan.com/block/15879128)*) using magnet tools 🧲, u can use qbittorrent or transmission to download.
     | Software | Docker | Binary |
     | :----: | :----: | :----: |
     | [qbittorrent](https://github.com/qbittorrent/qBittorrent) | [linuxserver/qbittorrent](https://hub.docker.com/r/linuxserver/qbittorrent) | https://www.qbittorrent.org/download.php |
@@ -16,7 +16,7 @@ Step 1: Download
 
 Step 2: Uncompress
 
-- running a script: *`tar -zxvf erigon.15787665.tar.gz`*
+- running a script: *`tar -zxvf erigon.15879128.tar.gz`*
 
 Step 3: Run && Data
 
