@@ -48,17 +48,18 @@ running a script: _`pigz -dkc geth.tar.gz | tar xvf -`_
 
 <!-- begin_erigon -->
 
+
 ```zsh
-aria2c -s16 -x16 -k1M https://snapshots.bnb48.club/erigon.18422790.tar.gz -o erigon.tar.gz
+aria2c -s16 -x16 -k1M https://snapshots.bnb48.club/erigon.18464771.tar.gz -o erigon.tar.gz
 ```
 
 
 ### checksum
 
-!!! db size 716.22 gb, 1690.99 gb after decompression
+!!! db size 0.00 gb, 0.00 gb after decompression
 ```bash
 > openssl sha256 erigon.tar.gz
-SHA256(erigon.tar.gz)= e77f44142772a782ebe426584fd149582582b6d767e14fbb89e9da574d76edfd
+SHA256(erigon.tar.gz)= dabc75938c7e394ea3b400a7963d00465fd4e3d4c52a79012929f0ff554b9892
 ```
 
 <!-- end_erigon -->
