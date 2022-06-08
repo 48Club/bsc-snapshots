@@ -17,17 +17,17 @@
 <!-- begin_geth -->
 
 ```bash
-aria2c -s16 -x16 -k1M https://snapshots.bnb48.club/geth.18394756.tar.gz -o geth.tar.gz
+aria2c -s8 -x8 -k1M https://snapshots.bnb48.club/geth.18502910.tar.gz -o geth.tar.gz
 ```
 
 
 ### checksum
 
 
-!!! db size 1327.31 gb, 1471.09 gb after decompression
+!!! db size 0.00 gb, 0.00 gb after decompression
 ```bash
 > openssl sha256 geth.tar.gz
-SHA256(geth.tar.gz)= 004c380a8496bdba56e0b66f730707f791c32b22efe061405298442338e091f9
+SHA256(geth.tar.gz)= d5ce200d88aed7b784c5b72da80f5549b73f5641e5c9ab6e72d922819412a637
 ```
 
 <!-- end_geth -->
