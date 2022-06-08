@@ -50,7 +50,7 @@ running a script: _`pigz -dkc geth.tar.gz | tar xvf -`_
 
 
 ```zsh
-aria2c -s16 -x16 -k1M https://snapshots.bnb48.club/erigon.18464771.tar.gz -o erigon.tar.gz
+aria2c -s8 -x8 -k1M https://snapshots.bnb48.club/erigon.18485438.tar.gz -o erigon.tar.gz
 ```
 
 
@@ -59,7 +59,7 @@ aria2c -s16 -x16 -k1M https://snapshots.bnb48.club/erigon.18464771.tar.gz -o eri
 !!! db size 0.00 gb, 0.00 gb after decompression
 ```bash
 > openssl sha256 erigon.tar.gz
-SHA256(erigon.tar.gz)= dabc75938c7e394ea3b400a7963d00465fd4e3d4c52a79012929f0ff554b9892
+SHA256(erigon.tar.gz)= 278b98665c5e020cf250caccd546e6901893bb088764d549b973824eef3fb363
 ```
 
 <!-- end_erigon -->
