@@ -9,7 +9,7 @@
 ## geth-snapshots
 
 
-> Database uses [geth(v1.1.10)](https://github.com/bnb-chain/bsc/releases/tag/v1.1.10) for sync
+> Database uses [geth(v1.1.11)](https://github.com/bnb-chain/bsc/releases/tag/v1.1.11) for sync
 
 
 ### download
