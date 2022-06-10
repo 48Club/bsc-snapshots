@@ -51,7 +51,7 @@ running a script: _`pigz -dkc geth.tar.gz | tar xvf -`_
 
 !!! from block [18561618](https://bscscan.com/block/18561618)
 ```bash
-aria2c -s8 -x8 -k1M https://snapshots.bnb48.club/geth.18561618.tar.gz -o geth.tar.gz
+aria2c -s8 -x8 -k1M https://snapshots.bnb48.club/erigon.18561618.tar.gz -o erigon.tar.gz
 ```
 
 
@@ -60,8 +60,8 @@ aria2c -s8 -x8 -k1M https://snapshots.bnb48.club/geth.18561618.tar.gz -o geth.ta
 
 !!! db size 748.35 gb, 1803.00 gb after decompression
 ```bash
-> openssl sha256 geth.tar.gz
-SHA256(geth.tar.gz)= 68da465bcafda9a922a6763295e01a5e88c93502a9fe65cb3c5de74c9c3b73ac
+> openssl sha256 erigon.tar.gz
+SHA256(erigon.tar.gz)= 68da465bcafda9a922a6763295e01a5e88c93502a9fe65cb3c5de74c9c3b73ac
 ```
 
 <!-- end_erigon -->
