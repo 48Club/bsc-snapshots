@@ -3,7 +3,7 @@
 
 !!! from block [NUMBER](https://bscscan.com/block/NUMBER)
 ```bash
-aria2c -s8 -x8 -k1M https://snapshots.bnb48.club/TYPE.NUMBER.tar.gz -o TYPE.tar.gz
+aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/TYPE.NUMBER.tar.gz -o TYPE.tar.gz
 ```
 
 
