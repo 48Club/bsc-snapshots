@@ -39,6 +39,14 @@ SHA256(geth.tar.gz)= 2293e7e6a654ba0ee2d017944b4da84b6ea2cf02e15a862cd037f5d41b4
 running a script: _`pigz -dkc geth.tar.gz | tar xvf -`_
 
 
+### flags
+
+
+```bash
+--txlookuplimit=0 --diffsync --syncmode=snap
+```
+
+
 ## erigon-snapshots
 
 
