@@ -57,19 +57,19 @@ running a script: _`pigz -dkc geth.tar.gz | tar xvf -`_
 
 <!-- begin_erigon -->
 
-!!! from block [18707540](https://bscscan.com/block/18707540)
+!!! from block [18758210](https://bscscan.com/block/18758210)
 ```bash
-aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/erigon.18707540.tar.gz -o erigon.tar.gz
+aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/erigon.18758210.tar.gz -o erigon.tar.gz
 ```
 
 
 ### checksum
 
 
-!!! db size 746.14 gb, 1803.00 gb after decompression
+!!! db size 743.95 gb, 1803.00 gb after decompression
 ```bash
 > openssl sha256 erigon.tar.gz
-SHA256(erigon.tar.gz)= c58d8fd4a5e6833eb30d834874ebaf4d1085565a00b8179d9f3415bef549c8f3
+SHA256(erigon.tar.gz)= c593da6689c7a922492c21e8f021064996362dfc95ad424755cf07326d8f9c77
 ```
 
 <!-- end_erigon -->
