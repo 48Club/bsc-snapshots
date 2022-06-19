@@ -36,7 +36,7 @@ SHA256(geth.tar.gz)= d5fd2f04cff202155a6c41e7d1b6668c7d48838742d006adf1d3610597a
 ### uncompress
 
 
-running a script: _`pigz -dkc geth.tar.gz | tar xvf -`_
+running a script: _`lz4 -cd geth.tar.lz4 | tar xf -`_
 
 
 ### flags
@@ -77,7 +77,7 @@ SHA256(erigon.tar.gz)= 8753c08748741c7adcfc01e8a2137eec3dd0f17339041231f523d8bba
 ### uncompress
 
 
-running a script: _`pigz -dkc erigon.tar.gz | tar xvf -`_
+running a script: _`lz4 -cd erigon.tar.lz4 | tar xf -`_
 
 
 ### flags
