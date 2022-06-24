@@ -84,5 +84,5 @@ running a script: _`lz4 -cd erigon.tar.lz4 | tar xf -`_
 
 
 ```bash
---snapshots=false --prune= --prune.h.older=5000 --prune.r.older=5000 --prune.t.older=5000 --prune.c.older=5000
+--prune= --prune.h.older=5000 --prune.r.older=5000 --prune.t.older=5000 --prune.c.older=5000
 ```
