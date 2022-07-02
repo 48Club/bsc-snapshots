@@ -50,7 +50,7 @@ running a script: _`lz4 -cd geth.tar.lz4 | tar xf -`_
 ## erigon-snapshots
 
 
-> Database uses [erigon(v2022.06.06)](https://github.com/ledgerwatch/erigon/releases/tag/v2022.06.06) for sync
+> Database uses [erigon(v2022.07.01)](https://github.com/ledgerwatch/erigon/releases/tag/v2022.07.01) for sync
 
 
 ### download
