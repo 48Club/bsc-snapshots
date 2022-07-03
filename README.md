@@ -16,19 +16,19 @@
 
 <!-- begin_geth -->
 
-!!! from block [19177840](https://bscscan.com/block/19177840)
+!!! from block [19206816](https://bscscan.com/block/19206816)
 ```bash
-aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/geth.19177840.tar.lz4 -o geth.tar.lz4
+aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/geth.19206816.tar.lz4 -o geth.tar.lz4
 ```
 
 
 ### checksum
 
 
-!!! db size 537.56 gb, 549.16 gb after decompression
+!!! db size 537.73 gb, 549.34 gb after decompression
 ```bash
 > openssl sha256 geth.tar.lz4
-SHA256(geth.tar.lz4)= 86b0bcb00e4265947ac074389da8cad9d80fb72f970207b86f03b917ca5b4951
+SHA256(geth.tar.lz4)= c73cfd24e7bc6ec8a04bd9d44d9c35bf0e9a18304f558799226d4459e1be079e
 ```
 
 <!-- end_geth -->
