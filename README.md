@@ -5,6 +5,9 @@
 
 *\> [erigon-snapshots](#erigon-snapshots)*
 
+Updated every ~24~ 36 hours
+
+Old snapshot deleted after ~1~ 12 hours
 
 ## geth-snapshots
 
