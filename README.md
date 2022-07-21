@@ -7,7 +7,7 @@
 
 Updated every ~24~ 36 hours
 
-Old snapshot deleted after ~1~ 12 hours
+Old snapshot deleted ~1~ 12 hours after new snapshot generated
 
 ## geth-snapshots
 
