@@ -46,7 +46,7 @@ running a script: _`lz4 -cd geth.tar.lz4 | tar xf -`_
 
 
 ```bash
---txlookuplimit=0 --diffsync --syncmode=snap
+--txlookuplimit=0 --diffsync=true --syncmode=full --tries-verify-mode=none --pruneancient=true --diffblock=5000
 ```
 
 
