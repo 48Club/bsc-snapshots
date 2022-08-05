@@ -60,19 +60,19 @@ running a script: _`lz4 -cd geth.tar.lz4 | tar xf -`_
 
 <!-- begin_erigon -->
 
-!!! from block [20126292](https://bscscan.com/block/20126292)
+!!! from block [20162233](https://bscscan.com/block/20162233)
 ```bash
-aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/erigon.20126292.tar.lz4 -o erigon.tar.lz4
+aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/erigon.20162233.tar.lz4 -o erigon.tar.lz4
 ```
 
 
 ### checksum
 
 
-!!! db size 754.06 gb, 1077.33 gb after decompression
+!!! db size 754.58 gb, 1077.33 gb after decompression
 ```bash
 > openssl sha256 erigon.tar.lz4
-SHA256(erigon.tar.lz4)= f0bde9e4e1d9de83abea0c686c758728d0f188f2211102b33eccb477391c3551
+SHA256(erigon.tar.lz4)= 7e6e9dff6b4145ddfa08a56ec6d31f442bee00bf9791aa112c4d3fb72fd9b655
 ```
 
 <!-- end_erigon -->
