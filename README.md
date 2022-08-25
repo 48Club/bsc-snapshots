@@ -87,5 +87,5 @@ running a script: _`lz4 -cd erigon.tar.lz4 | tar xf -`_
 
 
 ```bash
---chain=bsc --prune= --prune.h.older=5000 --prune.r.older=5000 --prune.t.older=5000 --prune.c.older=5000 --db.pagesize=16k
+--chain=bsc --prune=hrtc --db.pagesize=16k
 ```
