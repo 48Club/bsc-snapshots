@@ -19,19 +19,19 @@ Old snapshot deleted ~1~ 12 hours after new snapshot generated
 
 <!-- begin_geth -->
 
-!!! from block [21346834](https://bscscan.com/block/21346834)
+!!! from block [21389266](https://bscscan.com/block/21389266)
 ```bash
-aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/geth.21346834.tar.lz4 -o geth.tar.lz4
+aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/geth.21389266.tar.lz4 -o geth.tar.lz4
 ```
 
 
 ### checksum
 
 
-!!! db size 577.03 gb, 589.53 gb after decompression
+!!! db size ??? gb, ??? gb after decompression
 ```bash
 > openssl sha256 geth.tar.lz4
-SHA256(geth.tar.lz4)= 51668bf7c4dd6428216891f1f882aa2f8bed77c78f584afc5bad4e308e6709f7
+SHA256(erigon.tar.lz4)= ???
 ```
 
 <!-- end_geth -->
@@ -60,19 +60,19 @@ running a script: _`lz4 -cd geth.tar.lz4 | tar xf -`_
 
 <!-- begin_erigon -->
 
-!!! from block [21345475](https://bscscan.com/block/21345475)
+!!! from block [21387950](https://bscscan.com/block/21387950)
 ```bash
-aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/erigon.21345475.tar.lz4 -o erigon.tar.lz4
+aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/erigon.21387950.tar.lz4 -o erigon.tar.lz4
 ```
 
 
 ### checksum
 
 
-!!! db size 816.42 gb, 1191.60 gb after decompression
+!!! db size ??? gb, ??? gb after decompression
 ```bash
 > openssl sha256 erigon.tar.lz4
-SHA256(erigon.tar.lz4)= 013d3650205b4c1ce8c56f26b81bd39015179f0f0e88cde10dd596ee1f633835
+SHA256(erigon.tar.lz4)= ???
 ```
 
 <!-- end_erigon -->
