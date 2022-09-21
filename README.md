@@ -19,19 +19,19 @@ Old snapshot deleted ~1~ 12 hours after new snapshot generated
 
 <!-- begin_geth -->
 
-!!! from block [21477864](https://bscscan.com/block/21477864)
+!!! from block [21520876](https://bscscan.com/block/21520876)
 ```bash
-aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/geth.21477864.tar.lz4 -o geth.tar.lz4
+aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/geth.21520876.tar.lz4 -o geth.tar.lz4
 ```
 
 
 ### checksum
 
 
-!!! db size 579.06 gb, 591.52 gb after decompression
+!!! db size 579.91 gb, 592.47 gb after decompression
 ```bash
 > openssl sha256 geth.tar.lz4
-SHA256(geth.tar.lz4)= 05cc7b944b0999f35c340238ed8952f122d832e0f7285ac76d9e1e75881ffe94
+SHA256(geth.tar.lz4)= f04a144994d333294776cc13b0544690f39af16b755a48c47b7ac0211b5e1ca2
 ```
 
 <!-- end_geth -->
