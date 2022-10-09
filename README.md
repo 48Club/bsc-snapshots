@@ -3,7 +3,7 @@
 
 *\> [geth-snapshots](#geth-snapshots)*
 
-** This geth snapshot is generated with `--tries-verify-mode=none` so it contains no MPT data. You should not build a validator upon this snapshot. Know [more >>>](https://github.com/bnb-chain/bsc/pull/926)
+**This geth snapshot is generated with `--tries-verify-mode=none` so it contains no MPT data. You should not build a validator upon this snapshot. [Know more >>>](https://github.com/bnb-chain/bsc/pull/926)**
 
 *\> [erigon-snapshots](#erigon-snapshots)*
 
