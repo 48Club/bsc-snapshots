@@ -13,7 +13,7 @@ Old snapshot deleted ~1~ 12 hours after new snapshot generated
 ## geth-snapshots
 
 
-> Database uses [geth(v1.1.15)](https://github.com/bnb-chain/bsc/releases/tag/v1.1.15) for sync
+> Database uses [geth(v1.1.16)](https://github.com/bnb-chain/bsc/releases/tag/v1.1.16) for sync
 
 
 ### download
@@ -62,7 +62,7 @@ running a script: _`lz4 -cd geth.tar.lz4 | tar xf -`_
 ## erigon-snapshots
 
 
-> Database uses [erigon(v2.27.0)](https://github.com/ledgerwatch/erigon/releases/tag/v2.27.0) for sync
+> Database uses [erigon(v2.28.0)](https://github.com/ledgerwatch/erigon/releases/tag/v2.28.0) for sync
 
 
 ### download
