@@ -62,7 +62,7 @@ running a script: _`lz4 -cd geth.tar.lz4 | tar xf -`_
 ## erigon-snapshots
 
 
-> Database uses [erigon(v2.28.0)](https://github.com/ledgerwatch/erigon/releases/tag/v2.28.0) for sync
+> Database uses [erigon(v2.28.1)](https://github.com/ledgerwatch/erigon/releases/tag/v2.28.1) for sync
 
 
 ### download
