@@ -8,12 +8,13 @@
 *\> [erigon-snapshots](#erigon-snapshots)*
 
 Updated every ~24~ 36 hours
+
 Old snapshot deleted ~1~ 12 hours after new snapshot generated
 
 ## geth-snapshots
 
 
-> Database uses [geth(v1.1.16)](https://github.com/bnb-chain/bsc/releases/tag/v1.1.16) for sync
+> Database uses [geth(v1.1.17)](https://github.com/bnb-chain/bsc/releases/tag/v1.1.17) for sync
 
 
 ### download
@@ -55,7 +56,7 @@ running a script: _`lz4 -cd geth.tar.lz4 | tar xf -`_
 
 
 ```bash
---txlookuplimit=0 --diffsync=true --syncmode=full --tries-verify-mode=none --pruneancient=true --diffblock=5000
+--txlookuplimit=0 --syncmode=full --tries-verify-mode=none --pruneancient=true --diffblock=5000
 ```
 
 
