@@ -21,18 +21,18 @@ Old snapshot deleted ~1~ 12 hours after new snapshot generated
 
 <!-- begin_geth -->
 
-!!! from block [23013940](https://bscscan.com/block/23013940)
+!!! from block [23055846](https://bscscan.com/block/23055846)
 
 #### pipeline download and extract
 > skip checksum & uncompress if you used pipeline
 ```bash
-wget https://snapshots.bnb48.club/geth.23013940.tar.lz4 -O - | lz4 -cd | tar xf -
+wget https://snapshots.bnb48.club/geth.23055846.tar.lz4 -O - | lz4 -cd | tar xf -
 ```
 
 #### multithreaded download
 
 ```bash
-aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/geth.23013940.tar.lz4 -o geth.tar.lz4
+aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/geth.23055846.tar.lz4 -o geth.tar.lz4
 ```
 
 
@@ -41,7 +41,7 @@ aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/geth.23013940.tar.lz4 -o ge
 !!! db size 319.63 gb, 325.64 gb after decompression
 ```bash
 > openssl sha256 geth.tar.lz4
-SHA256(geth.tar.lz4)= 12913458e84f9563271f111a1e5279ceedbfd2bef9edf9a1b695cf173531408e
+SHA256(geth.tar.lz4)= d555af6d45e5598704f0c5a5827be05605f3d1e12484be0bb8fbbd53df6b71a2
 ```
 
 <!-- end_geth -->
@@ -70,18 +70,18 @@ running a script: _`lz4 -cd geth.tar.lz4 | tar xf -`_
 
 <!-- begin_erigon -->
 
-!!! from block [23012511](https://bscscan.com/block/23012511)
+!!! from block [23055122](https://bscscan.com/block/23055122)
 
 #### pipeline download and extract
 > skip checksum & uncompress if you used pipeline
 ```bash
-wget https://snapshots.bnb48.club/erigon.23012511.tar.lz4 -O - | lz4 -cd | tar xf -
+wget https://snapshots.bnb48.club/erigon.23055122.tar.lz4 -O - | lz4 -cd | tar xf -
 ```
 
 #### multithreaded download
 
 ```bash
-aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/erigon.23012511.tar.lz4 -o erigon.tar.lz4
+aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/erigon.23055122.tar.lz4 -o erigon.tar.lz4
 ```
 
 
@@ -90,7 +90,7 @@ aria2c -s14 -x14 -k100M https://snapshots.bnb48.club/erigon.23012511.tar.lz4 -o 
 !!! db size 892.69 gb, 1319.97 gb after decompression
 ```bash
 > openssl sha256 erigon.tar.lz4
-SHA256(erigon.tar.lz4)= 0acb6ad5eee7d9df58a7e9efed8806bdfa377aa5321f01bbf24daa07cd38e63f
+SHA256(erigon.tar.lz4)= 8e673a3a5c6fa4ba5db0b5803a7244e626059433d95391f2113d3f78b697aae0
 ```
 
 <!-- end_erigon -->
