@@ -14,7 +14,7 @@ Old snapshot deleted ~1~ 12 hours after new snapshot generated
 ## geth-snapshots
 
 
-> Database uses [geth(v1.1.17)](https://github.com/bnb-chain/bsc/releases/tag/v1.1.17) for sync
+> Database uses [geth(v1.1.18)](https://github.com/bnb-chain/bsc/releases/tag/v1.1.18) for sync
 
 
 ### download
