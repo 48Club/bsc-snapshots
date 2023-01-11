@@ -21,27 +21,27 @@ Old snapshot deleted ~1~ 12 hours after new snapshot generated
 
 <!-- begin_geth -->
 
-!!! from block [24632817](https://bscscan.com/block/24632817)
+!!! from block [24676786](https://bscscan.com/block/24676786)
 
 #### pipeline download and extract
 > skip checksum & uncompress if you used pipeline
 ```bash
-wget https://snapshots.48.club/geth.24632817.tar.lz4 -O - | lz4 -cd | tar xf -
+wget https://snapshots.48.club/geth.24676786.tar.lz4 -O - | lz4 -cd | tar xf -
 ```
 
 #### multithreaded download
 
 ```bash
-aria2c -s14 -x14 -k100M https://snapshots.48.club/geth.24632817.tar.lz4 -o geth.tar.lz4
+aria2c -s14 -x14 -k100M https://snapshots.48.club/geth.24676786.tar.lz4 -o geth.tar.lz4
 ```
 
 
 ### checksum
 
-!!! db size 334.81 gb, 341.19 gb after decompression
+!!! db size 335.24 gb, 341.45 gb after decompression
 ```bash
 > openssl sha256 geth.tar.lz4
-SHA256(geth.tar.lz4)= 95bd3a074b13143f880b449deeac210a12a091f3d6d9d2818120ab558a7779c9
+SHA256(geth.tar.lz4)= 7386608faf29651be17b03ceac27ff0db30172d5f205dc7d125897e871b15211
 ```
 
 <!-- end_geth -->
