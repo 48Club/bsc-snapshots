@@ -70,27 +70,27 @@ running a script: _`lz4 -cd geth.tar.lz4 | tar xf -`_
 
 <!-- begin_erigon -->
 
-!!! from block [25187940](https://bscscan.com/block/25187940)
+!!! from block [25230195](https://bscscan.com/block/25230195)
 
 #### pipeline download and extract
 > skip checksum & uncompress if you used pipeline
 ```bash
-wget https://snapshots.48.club/erigon.25187940.tar.lz4 -O - | lz4 -cd | tar xf -
+wget https://snapshots.48.club/erigon.25230195.tar.lz4 -O - | lz4 -cd | tar xf -
 ```
 
 #### multithreaded download
 
 ```bash
-aria2c -s14 -x14 -k100M https://snapshots.48.club/erigon.25187940.tar.lz4 -o erigon.tar.lz4
+aria2c -s14 -x14 -k100M https://snapshots.48.club/erigon.25230195.tar.lz4 -o erigon.tar.lz4
 ```
 
 
 ### checksum
 
-!!! db size 975.06 gb, 1463.77 gb after decompression
+!!! db size 976.41 gb, 1463.93 gb after decompression
 ```bash
 > openssl sha256 erigon.tar.lz4
-SHA256(erigon.tar.lz4)= 04d4cc3e278434b7d5ea560f63e816bba8693ac648759ed70c8cb7c917b4f0b2
+SHA256(erigon.tar.lz4)= 4e34efe6879973e3bdd25094499e4986617590ddc6c35f880e7916427f0d05d7
 ```
 
 <!-- end_erigon -->
