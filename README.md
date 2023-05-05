@@ -15,7 +15,7 @@
 
 ### download
 
-<!-- begin_geth -->
+<!-- begin_none -->
 
 !!! from block [27819979](https://bscscan.com/block/27819979)
 
@@ -40,7 +40,7 @@ aria2c -s4 -x4 -k1024M https://snapshots.48.club/geth.27819979.tar.lz4 -o geth.t
 SHA256(geth.tar.lz4)= eb3ddb7a71678fece8573b0a723869ed55f4a7bcec2abd8e4ec9587de08049f4
 ```
 
-<!-- end_geth -->
+<!-- end_none -->
 
 ### uncompress
 
@@ -61,11 +61,11 @@ running a script: _`lz4 -cd geth.tar.lz4 | tar xf -`_
 
 ### download
 
-<!-- begin_erigon -->
+<!-- begin_local -->
 
 rm erigon snapshots
 
-<!-- end_erigon -->
+<!-- end_local -->
 
 
 ### uncompress
