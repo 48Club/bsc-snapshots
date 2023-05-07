@@ -6,13 +6,13 @@
 #### pipeline download and extract
 > skip checksum & uncompress if you used pipeline
 ```bash
-wget https://snapshots.48.club/TYPE.NUMBER.tar.lz4 -O - | lz4 -cd | tar xf -
+wget https://snapshots.48.club/geth.TYPE.NUMBER.tar.lz4 -O - | lz4 -cd | tar xf -
 ```
 
 #### multithreaded download
 
 ```bash
-aria2c -s4 -x4 -k1024M https://snapshots.48.club/TYPE.NUMBER.tar.lz4 -o TYPE.tar.lz4
+aria2c -s4 -x4 -k1024M https://snapshots.48.club/geth.TYPE.NUMBER.tar.lz4 -o TYPE.tar.lz4
 ```
 
 
