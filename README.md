@@ -45,7 +45,7 @@ SHA256(none.tar.lz4)= d7a3bcacf1ce613542d762abb8f835f488a6c869d190b2c101f56061bb
 ### uncompress
 
 
-running a script: _`lz4 -cd geth.tar.lz4 | tar xf -`_
+running a script: _`lz4 -cd none.tar.lz4 | tar xf -`_
 
 
 ### flags
@@ -71,7 +71,7 @@ rm erigon snapshots
 ### uncompress
 
 
-running a script: _`lz4 -cd geth.tar.lz4 | tar xf -`_
+running a script: _`lz4 -cd local.tar.lz4 | tar xf -`_
 
 
 ### flags
