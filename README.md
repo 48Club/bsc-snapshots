@@ -17,27 +17,27 @@
 
 <!-- begin_none -->
 
-!!! from block [28352228](https://bscscan.com/block/28352228)
+!!! from block [28395219](https://bscscan.com/block/28395219)
 
 #### pipeline download and extract
 > skip checksum & uncompress if you used pipeline
 ```bash
-wget https://snapshots.48.club/geth.none.28352228.tar.lz4 -O - | lz4 -cd | tar xf -
+wget https://snapshots.48.club/geth.none.28395219.tar.lz4 -O - | lz4 -cd | tar xf -
 ```
 
 #### multithreaded download
 
 ```bash
-aria2c -s4 -x4 -k1024M https://snapshots.48.club/geth.none.28352228.tar.lz4 -o none.tar.lz4
+aria2c -s4 -x4 -k1024M https://snapshots.48.club/geth.none.28395219.tar.lz4 -o none.tar.lz4
 ```
 
 
 ### checksum
 
-!!! db size 382.10 gb, 389.55 gb after decompression
+!!! db size 382.84 gb, 390.43 gb after decompression
 ```bash
 > openssl sha256 none.tar.lz4
-SHA256(none.tar.lz4)= dbfc8c87bf154fd786a97caf220dc1e3ce503241281b5b4d2a69d2da50a74d50
+SHA256(none.tar.lz4)= 8551a1fe56a47897d3d3dec04614236ca04b45dbfb0d1b6aeeb46d8755c043fc
 ```
 
 <!-- end_none -->
