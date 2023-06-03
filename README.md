@@ -63,27 +63,27 @@ running a script: _`lz4 -cd none.tar.lz4 | tar xf -`_
 
 <!-- begin_local -->
 
-!!! from block [28701171](https://bscscan.com/block/28701171)
+!!! from block [28743510](https://bscscan.com/block/28743510)
 
 #### pipeline download and extract
 > skip checksum & uncompress if you used pipeline
 ```bash
-wget https://snapshots.48.club/geth.local.28701171.tar.lz4 -O - | lz4 -cd | tar xf -
+wget https://snapshots.48.club/geth.local.28743510.tar.lz4 -O - | lz4 -cd | tar xf -
 ```
 
 #### multithreaded download
 
 ```bash
-aria2c -s4 -x4 -k1024M https://snapshots.48.club/geth.local.28701171.tar.lz4 -o local.tar.lz4
+aria2c -s4 -x4 -k1024M https://snapshots.48.club/geth.local.28743510.tar.lz4 -o local.tar.lz4
 ```
 
 
 ### checksum
 
-!!! db size 789.75 gb, 810.00 gb after decompression
+!!! db size 790.66 gb, 810.93 gb after decompression
 ```bash
 > openssl sha256 local.tar.lz4
-SHA256(local.tar.lz4)= 555066ec2dea8e43321ee18f105bb90ba03afbdc94bb8d0a1270a461f3e2727c
+SHA256(local.tar.lz4)= 392c0a7262f9e6978c457fddb1b13ef52abb403b4cd572eee30d3837bb67087c
 ```
 
 <!-- end_local -->
