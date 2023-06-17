@@ -8,7 +8,7 @@
 **Fast node is generated with `--tries-verify-mode=none`, Full node is generated with `--tries-verify-mode=local`**
 **[Know more >>>](https://github.com/bnb-chain/bsc/pull/926)**
 
-> Database uses [geth(v1.1.23)](https://github.com/bnb-chain/bsc/releases/tag/v1.1.23) for sync
+> Database uses [geth(v1.2.5)](https://github.com/bnb-chain/bsc/releases/tag/v1.2.5) for sync
 
 
 ## Fast node
@@ -17,24 +17,24 @@
 
 <!-- begin_none -->
 
-!!! from block [28783283](https://bscscan.com/block/28783283)
+!!! from block [29179715](https://bscscan.com/block/29179715)
 
 #### pipeline download and extract
 > skip checksum & uncompress if you used pipeline
 ```bash
-wget https://snapshots.48.club/geth.none.28783283.tar.lz4 -O - | lz4 -cd | tar xf -
+wget https://snapshots.48.club/geth.none.29179715.tar.zst -O - | zstd -cd | tar xf -
 ```
 
 #### multithreaded download
 
 ```bash
-aria2c -s4 -x4 -k1024M https://snapshots.48.club/geth.none.28783283.tar.lz4 -o none.tar.lz4
+aria2c -s4 -x4 -k1024M https://snapshots.48.club/geth.none.29179715.tar.zst -o none.tar.lz4
 ```
 
 
 ### checksum
 
-!!! db size 391.15 gb, 399.10 gb after decompression
+!!! db size 365.36 gb, 400.97 gb after decompression
 ```bash
 > openssl sha256 none.tar.lz4
 SHA256(none.tar.lz4)= b1bddc347c78ec3b84694099ecf9213b835e9647b0f04abc3462d7e9cbca47d1
@@ -45,7 +45,7 @@ SHA256(none.tar.lz4)= b1bddc347c78ec3b84694099ecf9213b835e9647b0f04abc3462d7e9cb
 ### uncompress
 
 
-running a script: _`lz4 -cd none.tar.lz4 | tar xf -`_
+running a script: _`zstd -cd none.tar.lz4 | tar xf -`_
 
 
 ### flags
