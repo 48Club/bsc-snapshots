@@ -68,13 +68,13 @@ running a script: _`zstd -cd none.tar.lz4 | tar xf -`_
 #### pipeline download and extract
 > skip checksum & uncompress if you used pipeline
 ```bash
-wget https://snapshots.48.club/geth.local.28786586.tar.lz4 -O - | lz4 -cd | tar xf -
+wget https://snapshots.48.club/geth.local.28786586.tar.zst -O - | zstd -cd | tar xf -
 ```
 
 #### multithreaded download
 
 ```bash
-aria2c -s4 -x4 -k1024M https://snapshots.48.club/geth.local.28786586.tar.lz4 -o local.tar.lz4
+aria2c -s4 -x4 -k1024M https://snapshots.48.club/geth.local.28786586.tar.zst -o local.tar.zst
 ```
 
 
@@ -82,8 +82,8 @@ aria2c -s4 -x4 -k1024M https://snapshots.48.club/geth.local.28786586.tar.lz4 -o 
 
 !!! db size 791.56 gb, 811.87 gb after decompression
 ```bash
-> openssl sha256 local.tar.lz4
-SHA256(local.tar.lz4)= 0de691df3a88c106ee553ba645d3f1980e52fc584274c378099013172091a22c
+> openssl sha256 local.tar.zst
+SHA256(local.tar.zst)= 0de691df3a88c106ee553ba645d3f1980e52fc584274c378099013172091a22c
 ```
 
 <!-- end_local -->
@@ -92,7 +92,7 @@ SHA256(local.tar.lz4)= 0de691df3a88c106ee553ba645d3f1980e52fc584274c378099013172
 ### uncompress
 
 
-running a script: _`lz4 -cd local.tar.lz4 | tar xf -`_
+running a script: _`zstd -cd local.tar.lz4 | tar xf -`_
 
 
 ### flags
