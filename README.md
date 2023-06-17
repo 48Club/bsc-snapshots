@@ -80,7 +80,7 @@ aria2c -s4 -x4 -k1024M https://snapshots.48.club/geth.local.29188139.tar.zst -o 
 
 ### checksum
 
-!!! db size 791.56 gb, 811.87 gb after decompression
+!!! db size 786.28 gb, 843.76 gb after decompression
 ```bash
 > openssl sha256 local.tar.zst
 SHA256(local.tar.zst)= c2cf224c4da2c19caf1608d968dc44dd7a7013115d144160e85fa6e287590c51
