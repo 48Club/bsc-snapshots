@@ -34,7 +34,7 @@ aria2c -s4 -x4 -k1024M https://snapshots.48.club/geth.none.29236106.tar.zst -o n
 
 ### checksum
 
-!!! db size 363.10 gb, 397.95 gb after decompression
+!!! db size 363.15 gb, 398.00 gb after decompression
 ```bash
 > openssl sha256 none.tar.zst
 SHA256(none.tar.zst)= d40506fe5f10138166595a8948be75d759acb6f5bd06f1cf7f0364e87eced275
