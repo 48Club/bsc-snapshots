@@ -18,7 +18,7 @@
 | --- | --- |
 | Version | [v1.2.8](https://github.com/bnb-chain/bsc/releases/tag/v1.2.8) |
 | Block | [29353321](https://bscscan.com/block/29353321) |
-| Link | `https://snapshots.48.club/geth.none.29353321.tar.lz4` |
+| Link | `https://snapshots.48.club/geth.none.29353321.tar.zst` |
 | Size | 367.53G <-> 403.09G |
 | SHA256 | `28e60f1a5005944f07cee4cf466b1df415744c19daf3fb2a6879de15e3da1e0a` |
 | Flags | `--txlookuplimit=0 --syncmode=full --tries-verify-mode=none --pruneancient=true` |
@@ -31,7 +31,7 @@
 | --- | --- |
 | Version | [v1.2.8](https://github.com/bnb-chain/bsc/releases/tag/v1.2.8) |
 | Block | [29379621](https://bscscan.com/block/29379621) |
-| Link | `https://snapshots.48.club/geth.full.29379621.tar.lz4` |
+| Link | `https://snapshots.48.club/geth.full.29379621.tar.zst` |
 | Size | 777.33G <-> 834.86G |
 | SHA256 | `851ffb576e764341f02dcbc0a8eacb264ed7ac0efb0935adfb0c504d4191665f` |
 | Flags | `--txlookuplimit=0 --syncmode=full --tries-verify-mode=local` |
