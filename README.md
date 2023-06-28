@@ -78,6 +78,8 @@ wget $Link -O - | zstd -cd | tar xf -
 
 ```bash
 aria2c -s4 -x4 -k1024M $Link -o $save_path
+zstd -cd $save_path | tar xf -
+openssl sha256 $save_path # checksum verification, optional
 ```
 
 [Back to TOC](#bsc-snapshots)
