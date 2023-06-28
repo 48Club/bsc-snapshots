@@ -31,7 +31,7 @@
 | --- | --- |
 | Version | [v1.2.8](https://github.com/bnb-chain/bsc/releases/tag/v1.2.8) |
 | Block | [29379621](https://bscscan.com/block/29379621) |
-| Link | `https://snapshots.48.club/geth.full.29379621.tar.zst` |
+| Link | `https://snapshots.48.club/geth.local.29379621.tar.zst` |
 | Size | 777.33G <-> 834.86G |
 | SHA256 | `851ffb576e764341f02dcbc0a8eacb264ed7ac0efb0935adfb0c504d4191665f` |
 | Flags | `--txlookuplimit=0 --syncmode=full --tries-verify-mode=local` |
