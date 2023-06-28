@@ -79,3 +79,5 @@ wget $Link -O - | zstd -cd | tar xf -
 ```bash
 aria2c -s4 -x4 -k1024M $Link -o $save_path
 ```
+
+[Back to TOC](#bsc-snapshots)
