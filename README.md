@@ -44,7 +44,7 @@
 | Field |Value |
 | --- | --- |
 | Version | [v1.1.2](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.2) |
-| Block | [29475087](https://bscscan.com/block/29475087) |
+| Block | [29475087](https://bscscan.com/block/29475087) (Jun-27-2023 06:48:54 PM +UTC) |
 | Link | `https://snapshots.48.club/erigon.fast.29475087.tar.zst` |
 | Size | 383.04G <-> 824.00G |
 | SHA256 | `08f95286ad0df0b8b30da182b3e2f2c65d47f0af9d959a26da67ed0403fe7520`|
