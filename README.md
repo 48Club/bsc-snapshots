@@ -43,7 +43,7 @@
 
 | Field |Value |
 | --- | --- |
-| Version | [v1.1.3](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.3) |
+| Version | [v1.1.4](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.4) |
 | Block | [29475087](https://bscscan.com/block/29475087) (Jun-27-2023 06:48:54 PM +UTC) |
 | Link | `https://snapshots.48.club/erigon.fast.29475087.tar.zst` |
 | Size | 383.04G <-> 824.00G |
@@ -57,7 +57,7 @@
 *\> todo - add archive node*
 | Field |Value |
 | --- | --- |
-| Version | [v1.1.3](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.3) |
+| Version | [v1.1.4](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.4) |
 | Block | [0](https://bscscan.com/block/0) |
 | Link | `https://snapshots.48.club/erigon.archive.0.tar.zst` |
 | Size | 0G <-> 0G |
