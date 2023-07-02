@@ -58,9 +58,9 @@
 | Field |Value |
 | --- | --- |
 | Version | [v1.1.4](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.4) |
-| Block | [0](https://bscscan.com/block/0) |
-| Link | `https://snapshots.48.club/erigon.archive.0.tar.zst` |
-| Size | 0G <-> 0G |
+| Block | [29612086](https://bscscan.com/block/29612086) |
+| Link | `https://snapshots.48.club/erigon.archive.29612086.tar.zst` |
+| Size | 0G <-> 6396.10G |
 | SHA256 | `null`|
 | Flags | `--db.pagesize=16k` |
 
