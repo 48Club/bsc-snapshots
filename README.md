@@ -54,11 +54,10 @@
 
 ### Erigon archive node
 
-*\> todo - add archive node*
 | Field |Value |
 | --- | --- |
 | Version | [v1.1.4](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.4) |
-| Block | [29612086](https://bscscan.com/block/29612086) |
+| Block | [29612086](https://bscscan.com/block/29612086) (Jul-02-2023 01:20:52 PM +UTC) |
 | Link | `https://snapshots.48.club/erigon.archive.29612086.tar.zst` |
 | Size | 0G <-> 6396.10G |
 | SHA256 | `null`|
