@@ -86,9 +86,10 @@ openssl sha256 $save_path # checksum verification, optional
 
 ```bash
 mkdir parts && cd parts
-aria2c -s4 -x4 -k1024M -i $List # multithreaded download
+wget $List -O erigon_archive.list
+aria2c -s4 -x4 -k1024M -i erigon_archive.list # multithreaded download
 ## or
-# wget -i $List
+# wget -i erigon_archive.list
 ## checksum verification, optional
 # cat erigon.archive.29612086.tar.zst.part_* | openssl sha256
 ## if checksum is not matched, try to check parts one by one
