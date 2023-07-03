@@ -59,7 +59,7 @@
 | --- | --- |
 | Version | [v1.1.4](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.4) |
 | Block | [29612086](https://bscscan.com/block/29612086) (Jul-02-2023 01:20:52 PM +UTC) |
-| List | `https://raw.githubusercontent.com/48Club/bsc-snapshots/main/list/erigon_archive.list`|
+| List | [erigon_archive.list](list/erigon_archive.list) |
 | Size | 0G <-> 6396.10G |
 | SHA256 | `null` |
 | Flags | `--db.pagesize=16k` |
@@ -91,6 +91,8 @@ aria2c -s4 -x4 -k1024M -i $List # multithreaded download
 # wget -i $List
 ## checksum verification, optional
 # cat erigon.archive.29612086.tar.zst.part_* | openssl sha256
+## if checksum is not matched, try to check parts one by one
+## you can get checksum of parts from list/erigon_archive.sha256
 cat erigon.archive.29612086.tar.zst.part_* | zstd -cd | tar xf -
 ```
 
