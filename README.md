@@ -10,6 +10,7 @@
 - *[How to download](#how-to-download)*
     - *[pipeline download and extract](#pipeline-download-and-extract)*
     - *[multithreaded download](#multithreaded-download)*
+    - *[download in parts](#download-in-parts)*
 
 ## Geth
 ### Geth fast node
@@ -58,9 +59,9 @@
 | --- | --- |
 | Version | [v1.1.4](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.4) |
 | Block | [29612086](https://bscscan.com/block/29612086) (Jul-02-2023 01:20:52 PM +UTC) |
-| Link | `https://snapshots.48.club/erigon.archive.29612086.tar.zst` |
+| List | `https://raw.githubusercontent.com/48Club/bsc-snapshots/main/list/erigon_archive.list`|
 | Size | 0G <-> 6396.10G |
-| SHA256 | `null`|
+| SHA256 | `null` |
 | Flags | `--db.pagesize=16k` |
 
 [Back to TOC](#bsc-snapshots)
@@ -79,6 +80,18 @@ wget $Link -O - | zstd -cd | tar xf -
 aria2c -s4 -x4 -k1024M $Link -o $save_path
 zstd -cd $save_path | tar xf -
 openssl sha256 $save_path # checksum verification, optional
+```
+
+### download in parts
+
+```bash
+mkdir parts && cd parts
+aria2c -s4 -x4 -k1024M -i $List # multithreaded download
+## or
+# wget -i $List
+## checksum verification, optional
+# cat erigon.archive.29612086.tar.zst.part_* | openssl sha256
+cat erigon.archive.29612086.tar.zst.part_* | zstd -cd | tar xf -
 ```
 
 [Back to TOC](#bsc-snapshots)
