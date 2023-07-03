@@ -30,10 +30,10 @@
 | Field |Value |
 | --- | --- |
 | Version | [v1.2.8](https://github.com/bnb-chain/bsc/releases/tag/v1.2.8) |
-| Block | [29638207](https://bscscan.com/block/29638207) (Jul-03-2023 09:40:34 AM +UTC) |
+| Block | [29638207](https://bscscan.com/block/29638207) (Jul-03-2023 11:09:44 AM +UTC) |
 | Link | `https://snapshots.48.club/geth.full.29638207.tar.zst` |
 | Size | 784.35G <-> 842.34G |
-| SHA256 | `f5c26febdae1e317d5ffbb78706b80270d92ff83313913dd333c590a063754dc` |
+| SHA256 | `847c3068e0ea339a54087f422b510feca88a39a0ecddc6d1dc97db924491a318` |
 | Flags | `--txlookuplimit=0 --syncmode=full --tries-verify-mode=local` |
 
 [Back to TOC](#bsc-snapshots)
