@@ -18,10 +18,10 @@
 | Field |Value |
 | --- | --- |
 | Version | [v1.2.8](https://github.com/bnb-chain/bsc/releases/tag/v1.2.8) |
-| Block | [29635710](https://bscscan.com/block/29635710) (Jul-03-2023 09:04:32 AM +UTC) |
-| Link | `https://snapshots.48.club/geth.none.29635710.tar.zst` |
-| Size | 369.90G <-> 405.90G |
-| SHA256 | `896e237f3e3f9930bb96ba10f577d221af83ff0cc3346b97b813eba270cb6607` |
+| Block | [29499780](https://bscscan.com/block/29499780) (Jun-28-2023 03:27:58 PM +UTC) |
+| Link | `https://snapshots.48.club/geth.none.29499780.tar.zst` |
+| Size | 368.97G <-> 405.12G |
+| SHA256 | `d3b536629bee283c6b9f7cffbb67f7d6a25d44b68b1557ec765705c23e2e6b1a` |
 | Flags | `--txlookuplimit=0 --syncmode=full --tries-verify-mode=none --pruneancient=true` |
 
 [Back to TOC](#bsc-snapshots)
@@ -31,10 +31,10 @@
 | Field |Value |
 | --- | --- |
 | Version | [v1.2.8](https://github.com/bnb-chain/bsc/releases/tag/v1.2.8) |
-| Block | [29638207](https://bscscan.com/block/29638207) (Jul-03-2023 11:09:44 AM +UTC) |
-| Link | `https://snapshots.48.club/geth.full.29638207.tar.zst` |
-| Size | 784.35G <-> 842.34G |
-| SHA256 | `847c3068e0ea339a54087f422b510feca88a39a0ecddc6d1dc97db924491a318` |
+| Block | [29501904](https://bscscan.com/block/29501904) (Jun-28-2023 05:14:17 PM +UTC) |
+| Link | `https://snapshots.48.club/geth.full.29501904.tar.zst` |
+| Size | 779.71G <-> 837.42G |
+| SHA256 | `f5c26febdae1e317d5ffbb78706b80270d92ff83313913dd333c590a063754dc` |
 | Flags | `--txlookuplimit=0 --syncmode=full --tries-verify-mode=local` |
 
 [Back to TOC](#bsc-snapshots)
@@ -60,8 +60,8 @@
 | Version | [v1.1.4](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.4) |
 | Block | [29612086](https://bscscan.com/block/29612086) (Jul-02-2023 01:20:52 PM +UTC) |
 | List | [erigon_archive.list](list/erigon_archive.list?raw=1) |
-| Size | 0G <-> 6396.10G |
-| SHA256 | `null` |
+| Size | 1495.72G <-> 6396.10G |
+| SHA256 | `23fdccd5e953ab77ee7dfae25a640725fcc49e1c4678ff70697296c3d400ca2c` |
 | Flags | `--db.pagesize=16k` |
 
 [Back to TOC](#bsc-snapshots)
