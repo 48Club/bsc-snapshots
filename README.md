@@ -10,6 +10,7 @@
 - *[How to download](#how-to-download)*
     - *[pipeline download and extract](#pipeline-download-and-extract)*
     - *[multithreaded download](#multithreaded-download)*
+    - *[download in parts](#download-in-parts)*
 
 ## Geth
 ### Geth fast node
@@ -43,8 +44,8 @@
 
 | Field |Value |
 | --- | --- |
-| Version | [v1.1.2](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.2) |
-| Block | [29475087](https://bscscan.com/block/29475087) |
+| Version | [v1.1.4](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.4) |
+| Block | [29475087](https://bscscan.com/block/29475087) (Jun-27-2023 06:48:54 PM +UTC) |
 | Link | `https://snapshots.48.club/erigon.fast.29475087.tar.zst` |
 | Size | 383.04G <-> 824.00G |
 | SHA256 | `08f95286ad0df0b8b30da182b3e2f2c65d47f0af9d959a26da67ed0403fe7520`|
@@ -54,14 +55,13 @@
 
 ### Erigon archive node
 
-*\> todo - add archive node*
 | Field |Value |
 | --- | --- |
-| Version | [v1.1.2](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.2) |
-| Block | [0](https://bscscan.com/block/0) |
-| Link | `https://snapshots.48.club/erigon.archive.0.tar.zst` |
-| Size | 0G <-> 0G |
-| SHA256 | `null`|
+| Version | [v1.1.4](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.4) |
+| Block | [29612086](https://bscscan.com/block/29612086) (Jul-02-2023 01:20:52 PM +UTC) |
+| List | [erigon_archive.list](list/erigon_archive.list?raw=1) |
+| Size | 1495.72G <-> 6396.10G |
+| SHA256 | `23fdccd5e953ab77ee7dfae25a640725fcc49e1c4678ff70697296c3d400ca2c` |
 | Flags | `--db.pagesize=16k` |
 
 [Back to TOC](#bsc-snapshots)
@@ -80,6 +80,21 @@ wget $Link -O - | zstd -cd | tar xf -
 aria2c -s4 -x4 -k1024M $Link -o $save_path
 zstd -cd $save_path | tar xf -
 openssl sha256 $save_path # checksum verification, optional
+```
+
+### download in parts
+
+```bash
+mkdir parts && cd parts
+wget $List -O erigon_archive.list
+aria2c -s4 -x4 -k1024M -i erigon_archive.list # multithreaded download
+## or
+# wget -i erigon_archive.list
+## checksum verification, optional
+# cat erigon.archive.29612086.tar.zst.part_* | openssl sha256
+## if checksum is not matched, try to check parts one by one
+## you can get checksum of parts from list/erigon_archive.sha256
+cat erigon.archive.29612086.tar.zst.part_* | zstd -cd | tar xf -
 ```
 
 [Back to TOC](#bsc-snapshots)
