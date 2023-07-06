@@ -45,10 +45,10 @@
 | Field |Value |
 | --- | --- |
 | Version | [v1.1.4](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.4) |
-| Block | [29475087](https://bscscan.com/block/29475087) (Jun-27-2023 06:48:54 PM +UTC) |
-| Link | `https://snapshots.48.club/erigon.fast.29475087.tar.zst` |
-| Size | 383.04G <-> 824.00G |
-| SHA256 | `08f95286ad0df0b8b30da182b3e2f2c65d47f0af9d959a26da67ed0403fe7520`|
+| Block | [29709888](https://bscscan.com/block/29709888) (Jul-05-2023 11:08:11 PM +UTC) |
+| List | [erigon_archive.list](list/erigon_fast.list?raw=1) |
+| Size | 995.35G <-> 1596.59G |
+| SHA256 | `9b9ff54c4f0427a10c3686ececbe7c28699881bc6fe7f47a638bf8c62dd516d7`|
 | Flags | `--prune=hrtc --db.pagesize=16k` |
 
 [Back to TOC](#bsc-snapshots)
@@ -86,15 +86,15 @@ openssl sha256 $save_path # checksum verification, optional
 
 ```bash
 mkdir parts && cd parts
-wget $List -O erigon_archive.list
-aria2c -s4 -x4 -k1024M -i erigon_archive.list # multithreaded download
+wget $List -O url.list
+aria2c -s4 -x4 -k1024M -i url.list # multithreaded download
 ## or
-# wget -i erigon_archive.list
+# wget -i url.list
 ## checksum verification, optional
-# cat erigon.archive.29612086.tar.zst.part_* | openssl sha256
+# cat erigon.$TYPE.$BLOCK.tar.zst.part_* | openssl sha256
 ## if checksum is not matched, try to check parts one by one
-## you can get checksum of parts from list/erigon_archive.sha256
-cat erigon.archive.29612086.tar.zst.part_* | zstd -cd | tar xf -
+## you can get checksum of parts from list/erigon_$TYPE.sha256
+cat erigon.$TYPE.$BLOCK.tar.zst.part_* | zstd -cd | tar xf -
 ```
 
 [Back to TOC](#bsc-snapshots)
