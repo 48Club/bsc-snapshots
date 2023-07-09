@@ -48,7 +48,7 @@
 | Block | [29794104](https://bscscan.com/block/29794104) (Jul-08-2023 09:32:06 PM +UTC) |
 | List | [erigon_archive.list](list/erigon_fast.list?raw=1) |
 | Size | 881.09G <-> 1600.95G |
-| SHA256 | `9b9ff54c4f0427a10c3686ececbe7c28699881bc6fe7f47a638bf8c62dd516d7`|
+| SHA256 | `447ff5b0d452f0b1cb71ec30045ca894e71b33252ed25839e034d3f0e75158f6`|
 | Flags | `--prune=hrtc --db.pagesize=16k` |
 
 [Back to TOC](#bsc-snapshots)
