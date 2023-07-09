@@ -45,9 +45,9 @@
 | Field |Value |
 | --- | --- |
 | Version | [v1.1.4](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.4) |
-| Block | [29709888](https://bscscan.com/block/29709888) (Jul-05-2023 11:08:11 PM +UTC) |
+| Block | [29794104](https://bscscan.com/block/29794104) (Jul-08-2023 09:32:06 PM +UTC) |
 | List | [erigon_archive.list](list/erigon_fast.list?raw=1) |
-| Size | 995.35G <-> 1596.59G |
+| Size | 881.09G <-> 1600.95G |
 | SHA256 | `9b9ff54c4f0427a10c3686ececbe7c28699881bc6fe7f47a638bf8c62dd516d7`|
 | Flags | `--prune=hrtc --db.pagesize=16k` |
 
