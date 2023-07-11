@@ -7,6 +7,8 @@
 - *[Erigon](#erigon)*
     - *[Erigon fast node](#erigon-fast-node)*
     - *[Erigon archive node](#erigon-archive-node)*
+        - *[BSC mainnet](#bsc-mainnet)*
+        - *[BSC testnet](#bsc-testnet)*
 - *[How to download](#how-to-download)*
     - *[pipeline download and extract](#pipeline-download-and-extract)*
     - *[multithreaded download](#multithreaded-download)*
