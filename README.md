@@ -49,11 +49,13 @@
 | List | [erigon_fast.list](list/erigon_fast.list?raw=1) |
 | Size | 881.09G <-> 1600.95G |
 | SHA256 | `447ff5b0d452f0b1cb71ec30045ca894e71b33252ed25839e034d3f0e75158f6`|
-| Flags | `--prune=hrtc --db.pagesize=16k` |
+| Flags | `--chain=bsc --prune=hrtc --db.pagesize=16k` |
 
 [Back to TOC](#bsc-snapshots)
 
 ### Erigon archive node
+
+#### BSC mainnet
 
 | Field |Value |
 | --- | --- |
@@ -62,10 +64,22 @@
 | List | [erigon_archive.list](list/erigon_archive.list?raw=1) |
 | Size | 1942.38G <-> 7147.83G |
 | SHA256 | `f25e9c504a3a5f662bba602a9f0bad8f8825779007b2c612cb6f3e81129cc829` |
-| Flags | `--db.pagesize=16k` |
+| Flags | `--chain=bsc --db.pagesize=16k` |
 
 [Back to TOC](#bsc-snapshots)
 
+#### BSC testnet
+
+| Field |Value |
+| --- | --- |
+| Version | [v1.1.4](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.4) |
+| Block | [31436344](https://testnet.bscscan.com/block/31436344) (Jul-10-2023 04:04:58 PM +UTC) |
+| Link | `https://snapshots.48.club/erigon.testnet.31436344.tar.zst` |
+| Size | 160.59G <-> 594.00G |
+| SHA256 | `e8a8484177753c16bfc5711fb06d69dc9bc0c51ed41280cee074ae4554a71e60` |
+| Flags | `--chain=chapel --db.pagesize=16k` |
+
+[Back to TOC](#bsc-snapshots)
 
 ## How to download
 ### pipeline download and extract
