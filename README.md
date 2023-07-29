@@ -19,7 +19,7 @@
 
 | Field |Value |
 | --- | --- |
-| Version | [v1.2.8](https://github.com/bnb-chain/bsc/releases/tag/v1.2.8) |
+| Version | [v1.2.9](https://github.com/bnb-chain/bsc/releases/tag/v1.2.9) |
 | Block | [30380180](https://bscscan.com/block/30380180) (Jul-29-2023 07:19:59 AM +UTC) |
 | Link | `https://snapshots.48.club/geth.fast.30380180.tar.zst` |
 | Size | 377.03G <-> 413.90G |
@@ -32,11 +32,11 @@
 
 | Field |Value |
 | --- | --- |
-| Version | [v1.2.8](https://github.com/bnb-chain/bsc/releases/tag/v1.2.8) |
-| Block | [30147253](https://bscscan.com/block/30147253) (Jul-21-2023 04:38:24 AM +UTC) |
-| Link | `https://snapshots.48.club/geth.full.30147253.tar.zst` |
-| Size | 756.01G <-> 852.24G |
-| SHA256 | `bba188d9c84e5e52278977bfed6801f285a44e366897d34cb6e8aee0bd99746f` |
+| Version | [v1.2.9](https://github.com/bnb-chain/bsc/releases/tag/v1.2.9) |
+| Block | [30389515](https://bscscan.com/block/30389515) (Jul-29-2023 03:07:38 PM +UTC) |
+| Link | `https://snapshots.48.club/geth.full.30389515.tar.zst` |
+| Size | 806.52G <-> 866.09G |
+| SHA256 | `ae4895142712f6c1ad4e8b3ae57dea46ee14c658cb3cdb0c7955dbbff26f880c` |
 | Flags | `--txlookuplimit=0 --syncmode=full --tries-verify-mode=local` |
 
 [Back to TOC](#bsc-snapshots)
