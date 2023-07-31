@@ -42,11 +42,19 @@
 [Back to TOC](#bsc-snapshots)
 
 ## Erigon
+
+### Erigon torrents files
+| Field |Value |
+| --- | --- |
+| Link | [erigon_fast.list](list/erigon_fast.list?raw=1) |
+| Size | 507.91G <-> 761.19G |
+| SHA256 | `af97cefa228a0f7f427937f76477e1fa8c9476186465408cfd4a542e26918e0b`|
+
 ### Erigon fast node
 
 | Field |Value |
 | --- | --- |
-| Version | [v1.1.4](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.4) |
+| Version | [v1.1.6](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.6) |
 | Block | [29794104](https://bscscan.com/block/29794104) (Jul-08-2023 09:32:06 PM +UTC) |
 | List | [erigon_fast.list](list/erigon_fast.list?raw=1) |
 | Size | 881.09G <-> 1600.95G |
@@ -61,7 +69,7 @@
 
 | Field |Value |
 | --- | --- |
-| Version | [v1.1.4](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.4) |
+| Version | [v1.1.6](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.6) |
 | Block | [29691730](https://bscscan.com/block/29691730) (Jul-05-2023 07:58:11 AM +UTC) |
 | List | [erigon_archive.list](list/erigon_archive.list?raw=1) |
 | Size | 1942.38G <-> 7147.83G |
