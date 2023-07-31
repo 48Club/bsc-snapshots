@@ -46,7 +46,8 @@
 ### Erigon torrents files
 | Field |Value |
 | --- | --- |
-| Link | [erigon_fast.list](list/erigon_fast.list?raw=1) |
+| Usage | [#82](https://github.com/48Club/bsc-snapshots/issues/82) |
+| Link | `https://snapshots.48.club/erigon.torrents.20230731.tar.zst` |
 | Size | 507.91G <-> 761.19G |
 | SHA256 | `af97cefa228a0f7f427937f76477e1fa8c9476186465408cfd4a542e26918e0b`|
 
@@ -55,10 +56,10 @@
 | Field |Value |
 | --- | --- |
 | Version | [v1.1.6](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.6) |
-| Block | [29794104](https://bscscan.com/block/29794104) (Jul-08-2023 09:32:06 PM +UTC) |
-| List | [erigon_fast.list](list/erigon_fast.list?raw=1) |
-| Size | 881.09G <-> 1600.95G |
-| SHA256 | `447ff5b0d452f0b1cb71ec30045ca894e71b33252ed25839e034d3f0e75158f6`|
+| Block | [30440951](https://bscscan.com/block/30440951) (Jul-31-2023 10:08:07 AM +UTC) |
+| Link | `https://snapshots.48.club/erigon.fast.30440951.tar.zst` |
+| Size | 472.86G <-> 1218.00G |
+| SHA256 | `0f6c6510e3f8dcfbf6353555d55991dd18399a91d02d531c919e296ec8b9b479`|
 | Flags | `--chain=bsc --prune=hrtc --db.pagesize=16k` |
 
 [Back to TOC](#bsc-snapshots)
