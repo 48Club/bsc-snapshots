@@ -55,7 +55,7 @@
 
 | Field |Value |
 | --- | --- |
-| Version | [v1.1.6](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.6) |
+| Version | [v1.1.7](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.7) |
 | Block | [30440951](https://bscscan.com/block/30440951) (Jul-31-2023 10:08:07 AM +UTC) |
 | Link | `https://snapshots.48.club/erigon.fast.30440951.tar.zst` |
 | Size | 472.86G <-> 1218.00G |
@@ -70,12 +70,12 @@
 
 | Field |Value |
 | --- | --- |
-| Version | [v1.1.6](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.6) |
+| Version | [v1.1.7](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.7) |
 | Block | [30452140](https://bscscan.com/block/30452140) (Jul-31-2023 07:29:14 PM +UTC) |
 | List | [erigon_archive.list](list/erigon_archive.list?raw=1) |
 | Size | 1600.01G <-> 6794.00G |
 | SHA256 | `8df2389ef95d990aa1e00885cb5cce778e648f17d88d13379fef2f83cc40c495` |
-| Flags | `--chain=bsc --db.pagesize=16k --db.size.limit=10t` |
+| Flags | `--chain=bsc --db.pagesize=16k` |
 
 [Back to TOC](#bsc-snapshots)
 
