@@ -33,10 +33,10 @@
 | Field |Value |
 | --- | --- |
 | Version | [v1.2.10](https://github.com/bnb-chain/bsc/releases/tag/v1.2.10) |
-| Block | [30555935](https://bscscan.com/block/30555935) (Aug-04-2023 10:17:03 AM +UTC) |
-| Link | `https://snapshots.48.club/geth.full.30555935.tar.zst` |
-| Size | 807.58G <-> 867.39G |
-| SHA256 | `e7ba04528a508c4507d53a9b37bcf42076eb30a662920dda856bd0313e679cf0` |
+| Block | [30778710](https://bscscan.com/block/30778710) (Aug-12-2023 04:35:42 AM +UTC) |
+| Link | `https://snapshots.48.club/geth.full.30778710.tar.zst` |
+| Size | 806.73G <-> 866.80G |
+| SHA256 | `d2bfa4a8e0b02c7e888d4ec7701d6276e571ade74a9865e824088104d02c7f43` |
 | Flags | `--txlookuplimit=0 --syncmode=full --tries-verify-mode=local` |
 
 [Back to TOC](#bsc-snapshots)
