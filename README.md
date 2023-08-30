@@ -57,11 +57,11 @@
 
 | Field |Value |
 | --- | --- |
-| Version | [v1.1.7](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.7) |
-| Block | [30440951](https://bscscan.com/block/30440951) (Jul-31-2023 10:08:07 AM +UTC) |
-| Link | `https://snapshots.48.club/erigon.fast.30440951.tar.zst` |
-| Size | 472.86G <-> 1218.00G |
-| SHA256 | `0f6c6510e3f8dcfbf6353555d55991dd18399a91d02d531c919e296ec8b9b479`|
+| Version | [v1.1.9](https://github.com/node-real/bsc-erigon/releases/tag/v1.1.9) |
+| Block | [31306137](https://bscscan.com/block/31306137) (Aug-30-2023 01:52:39 PM +UTC) |
+| Link | `https://snapshots.48.club/erigon.fast.31306137.tar.zst` |
+| Size | 390.01G <-> 818.00G |
+| SHA256 | `dab42346af7cabb59a99d85855d8f805393988b0520b3268ccf98e89cf3a5e6d`|
 | Flags | `--chain=bsc --prune=hrtc --db.pagesize=16k` |
 | Disk Suggestion | Minimum(NVMe ≥ 1.7T), Suggestion(NVMe ≥ 2.5T)|
 
