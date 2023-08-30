@@ -25,6 +25,7 @@
 | Size | 382.94G <-> 418.86G |
 | SHA256 | `8cd38578ccbb542ee1d5e5addbde1869f367eb3abc7d1f9a86d4e57d65511c30` |
 | Flags | `--txlookuplimit=0 --syncmode=full --tries-verify-mode=none --pruneancient=true` |
+| Disk Suggestion | Minimum(NVMe ≥ 500G), Suggestion(NVMe ≥ 1T)|
 
 [Back to TOC](#bsc-snapshots)
 
@@ -38,6 +39,7 @@
 | Size | 821.12G <-> 882.09G |
 | SHA256 | `bc67827b22390aee34d5bbb5a94002ed73bb9c259167211a75e89f2686392be4` |
 | Flags | `--txlookuplimit=0 --syncmode=full --tries-verify-mode=local` |
+| Disk Suggestion | Minimum(NVMe ≥ 1T), Suggestion(NVMe ≥ 2T)|
 
 [Back to TOC](#bsc-snapshots)
 
@@ -61,6 +63,7 @@
 | Size | 472.86G <-> 1218.00G |
 | SHA256 | `0f6c6510e3f8dcfbf6353555d55991dd18399a91d02d531c919e296ec8b9b479`|
 | Flags | `--chain=bsc --prune=hrtc --db.pagesize=16k` |
+| Disk Suggestion | Minimum(NVMe ≥ 1.7T), Suggestion(NVMe ≥ 2.5T)|
 
 [Back to TOC](#bsc-snapshots)
 
@@ -76,6 +79,7 @@
 | Size | 1600.01G <-> 6794.00G |
 | SHA256 | `8df2389ef95d990aa1e00885cb5cce778e648f17d88d13379fef2f83cc40c495` |
 | Flags | `--chain=bsc --db.pagesize=16k` |
+| Disk Suggestion | Minimum(NVMe ≥ 7.5T), Suggestion(NVMe ≥ 9T)|
 
 [Back to TOC](#bsc-snapshots)
 
@@ -89,6 +93,7 @@
 | Size | 160.59G <-> 594.00G |
 | SHA256 | `e8a8484177753c16bfc5711fb06d69dc9bc0c51ed41280cee074ae4554a71e60` |
 | Flags | `--chain=chapel --db.pagesize=16k` |
+| Disk Suggestion | Minimum(NVMe ≥ 700G), Suggestion(NVMe ≥ 1T)|
 
 [Back to TOC](#bsc-snapshots)
 
