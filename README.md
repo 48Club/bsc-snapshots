@@ -49,9 +49,9 @@
 | Field |Value |
 | --- | --- |
 | Usage | [#82](https://github.com/48Club/bsc-snapshots/issues/82) |
-| Link | `https://snapshots.48.club/erigon.torrents.20230731.tar.zst` |
-| Size | 507.91G <-> 761.19G |
-| SHA256 | `af97cefa228a0f7f427937f76477e1fa8c9476186465408cfd4a542e26918e0b`|
+| Link | `https://snapshots.48.club/erigon.torrents.20230830.tar.zst` |
+| Size | 629.45G <-> 774.94G |
+| SHA256 | `f0aa102ee88bd15a9247df2f00023ed5e0b949402bb77af396e758995008599f`|
 
 ### Erigon fast node
 
