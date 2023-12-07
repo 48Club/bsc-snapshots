@@ -4,6 +4,7 @@
 - *[Geth](#geth)*
     - *[Geth fast node](#geth-fast-node)*
     - *[Geth full node](#geth-full-node)*
+    - *[Geth full node with pbss](#geth-full-node-with-pbss)*
 - *[How to download](#how-to-download)*
     - *[pipeline download and extract](#pipeline-download-and-extract)*
     - *[multithreaded download](#multithreaded-download)*
@@ -33,6 +34,20 @@
 | Size | 773.89G <-> 862.79G |
 | SHA256 | `b8b13f93cba9bb5b4f62d1586a10ae3b9615a3975e129503ab8692dff698bae0` |
 | Flags | `--history.transactions=0 --syncmode=full --tries-verify-mode=local --pruneancient --db.engine=pebble` |
+| Disk Suggestion | Minimum(NVMe ≥ 1T), Suggestion(NVMe ≥ 1.98T)|
+
+[Back to TOC](#bsc-snapshots)
+
+### Geth full node with pbss
+
+| Field |Value |
+| --- | --- |
+| Version | [v1.3.4](https://github.com/bnb-chain/bsc/releases/tag/v1.3.4) |
+| Block | [0](https://bscscan.com/block/0) (Dec-07-2023 02:45:15 PM +UTC) |
+| Link | `https://snapshots.48.club/geth.pbss.0.tar.zst` |
+| Size | 0G <-> 0G |
+| SHA256 | `0x0` |
+| Flags | `--history.transactions=0 --syncmode=full --tries-verify-mode=local --state.scheme=path --db.engine=pebble` |
 | Disk Suggestion | Minimum(NVMe ≥ 1T), Suggestion(NVMe ≥ 1.98T)|
 
 [Back to TOC](#bsc-snapshots)
