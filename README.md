@@ -13,7 +13,7 @@
 
 | Field |Value |
 | --- | --- |
-| Version | [v1.3.4](https://github.com/bnb-chain/bsc/releases/tag/v1.3.4) |
+| Version | [v1.3.6](https://github.com/bnb-chain/bsc/releases/tag/v1.3.6) |
 | Block | [34152285](https://bscscan.com/block/34152285) (Dec-07-2023 05:51:37 PM +UTC) |
 | Link | `https://snapshots.48.club/geth.fast.34152285.tar.zst` |
 | Size | 353.59G <-> 407.81G |
@@ -27,7 +27,7 @@
 
 | Field |Value |
 | --- | --- |
-| Version | [v1.3.4](https://github.com/bnb-chain/bsc/releases/tag/v1.3.4) |
+| Version | [v1.3.6](https://github.com/bnb-chain/bsc/releases/tag/v1.3.6) |
 | Block | [34148567](https://bscscan.com/block/34148567) (Dec-07-2023 02:45:15 PM +UTC) |
 | Link | `https://snapshots.48.club/geth.full.34148567.tar.zst` |
 | Size | 773.89G <-> 862.79G |
