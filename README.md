@@ -43,7 +43,7 @@
 | Field |Value |
 | --- | --- |
 | Version | [v1.3.7](https://github.com/bnb-chain/bsc/releases/tag/v1.3.7) |
-| Block | [0](https://bscscan.com/block/34712063) (Dec-27-2023 05:55:40 AM +UTC) |
+| Block | [34712063](https://bscscan.com/block/34712063) (Dec-27-2023 05:55:40 AM +UTC) |
 | Link | `https://snapshots.48.club/geth.pbss.34712063.tar.zst` |
 | Size | 767.36G <-> 904.04G |
 | SHA256 | `a6d9c259b309731522da1c221727d421a9c1fb3eaf6b9ba5a0c9d7aa3904d8b4` |
