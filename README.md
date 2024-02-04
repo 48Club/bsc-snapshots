@@ -14,12 +14,12 @@
 
 | Field |Value |
 | --- | --- |
-| Version | [v1.3.5](https://github.com/bnb-chain/bsc/releases/tag/v1.3.5) (Must use v1.3.5 version [#132](https://github.com/48Club/bsc-snapshots/issues/132)) |
-| Block | [35485953](https://bscscan.com/block/35485953) (Jan-23-2024 04:14:42 AM +UTC) |
-| Link | `https://snapshots.48.club/geth.pbss.35485953.tar.zst` |
-| Size | 779.61G <-> 915.99G |
-| SHA256 | `fa4c23d35155328b27174d898d3606bfdd6732fcf0c35c45b888a8a7083ae3c7` |
-| Flags | `--history.transactions=0 --syncmode=full --tries-verify-mode=local --pruneancient --db.engine=pebble --state.scheme=path` |
+| Version | [v1.3.8](https://github.com/bnb-chain/bsc/releases/tag/v1.3.8) |
+| Block | [35782683](https://bscscan.com/block/35782683) (Feb-02-2024 11:59:41 AM +UTC) |
+| Link | `https://snapshots.48.club/geth.pbss.35782683.tar.zst` |
+| Size | 1967.12G <-> 2406.67G |
+| SHA256 | `68e653a2860d4ab7633f3089766a38d32919b75298182b0471b64f4ca86dd10b` |
+| Flags | `--history.transactions=0 --syncmode=full --tries-verify-mode=local --db.engine=pebble --state.scheme=path` |
 | Disk Suggestion | Minimum(NVMe ≥ 1T), Suggestion(NVMe ≥ 2T)|
 
 [Back to TOC](#bsc-snapshots)
