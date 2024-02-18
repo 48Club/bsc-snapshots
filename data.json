@@ -2,14 +2,14 @@
     "path": {
         "local": {
             "link": "https://snapshots.48.club/geth.pbss.36229722.tar.zst",
-            "sha256": "577dc8e2b2fcc6a749989c73595d149bcc57f58db8e8f0c622d40c7efec7f80a"
+            "sha256": "a4469ecd723d6ee8382d6f12093f93ee77c83714fba22ee21beed72f66380fe8"
         },
         "none": {}
     },
     "hash": {
         "local": {
-            "link": "https://snapshots.48.club/geth.full.35956781.tar.zst",
-            "sha256": "45a1ad3ee04d112ecbd75e617ee78213e39d0434e233944668003e1d9706218b"
+            "link": "https://snapshots.48.club/geth.full.36247665.tar.zst",
+            "sha256": "c08d8bf01b54329149f58d6e88d108f35d546f6c62b53ea6465e25f890b311d1"
         },
         "none": {
             "link": "https://snapshots.48.club/geth.fast.35407303.tar.zst",
