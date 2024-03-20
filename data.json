@@ -8,8 +8,8 @@
     },
     "hash": {
         "local": {
-            "link": "https://snapshots.48.club/geth.full.36922701.tar.zst",
-            "sha256": "b5b5c2aa27b53be4d1f59206f2770e820ef2e1fcb936c1e4244f5314094fa9d2"
+            "link": "https://snapshots.48.club/geth.full.37132345.tar.zst",
+            "sha256": "feaade4225c27711a03ac17aad02b8d9f650677948da9688685c9b28658251e9"
         },
         "none": {
             "link": "https://snapshots.48.club/geth.fast.36922701.tar.zst",
