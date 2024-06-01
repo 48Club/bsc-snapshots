@@ -2,6 +2,7 @@
 
 
 - *[Geth](#geth)*
+    - *[Geth fast node with pbss](#geth-fast-node-with-pbss)*
     - *[Geth full node with pbss](#geth-full-node-with-pbss)*
     - *[Geth fast node](#geth-fast-node)*
     - *[Geth full node](#geth-full-node)*
@@ -10,6 +11,20 @@
     - *[multithreaded download](#multithreaded-download)*
 
 ## Geth
+### Geth fast node with pbss
+
+| Field |Value |
+| --- | --- |
+| Version | [v1.4.8](https://github.com/bnb-chain/bsc/releases/tag/v1.4.8) |
+| Block | [39221903](https://bscscan.com/block/39221903) (Jun-01-2024 04:00:57 AM +UTC) |
+| Link | `https://snapshots.48.club/pbss.fast.39221903.tar.zst` |
+| Size | 306.68G <-> 337.79G |
+| SHA256 | `e5a7a8e7d5693abcb7b12f175d5e7c26501b905947a141e5b971849807de1ba6` |
+| Flags | `--history.transactions=90000 --syncmode=full --db.engine=pebble --tries-verify-mode=none` |
+| Disk Suggestion | Minimum(NVMe ≥ 500G), Suggestion(NVMe ≥ 1T)|
+
+[Back to TOC](#bsc-snapshots)
+
 ### Geth full node with pbss
 
 | Field |Value |

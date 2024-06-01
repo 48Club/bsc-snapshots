@@ -4,7 +4,10 @@
             "link": "https://snapshots.48.club/geth.pbss.38774285.tar.zst",
             "sha256": "fb69243816383c86b99a818075ad4ee4faeec2e8ac51800ee0df0aabc3337bba"
         },
-        "none": {}
+        "none": {
+            "link": "https://snapshots.48.club/pbss.fast.39221903.tar.zst",
+            "sha256": "e5a7a8e7d5693abcb7b12f175d5e7c26501b905947a141e5b971849807de1ba6"
+        }
     },
     "hash": {
         "local": {
