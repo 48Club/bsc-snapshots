@@ -1,8 +1,8 @@
 {
     "path": {
         "local": {
-            "link": "https://snapshots.48.club/geth.pbss.39422280.tar.zst",
-            "sha256": "c4ff74d78f1240c2432192c1b5f10ef01224a0d6c260bd57244431df2529b3a9"
+            "link": "https://snapshots.48.club/geth.pbss.40115523.tar.zst",
+            "sha256": "64ca1fbe796fa86b37c10d090ab7229c03e785613d783643832f528f30870277"
         },
         "none": {
             "link": "https://snapshots.48.club/pbss.fast.40088007.tar.zst",
