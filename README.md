@@ -16,10 +16,10 @@
 | Field |Value |
 | --- | --- |
 | Version | [v1.4.11](https://github.com/bnb-chain/bsc/releases/tag/v1.4.11) |
-| Block | [40088007](https://bscscan.com/block/40088007) (Jul-01-2024 08:41:51 AM +UTC) |
-| Link | `https://snapshots.48.club/pbss.fast.40088007.tar.zst` |
-| Size | 315.26G <-> 348.10G |
-| SHA256 | `c57a31b80d17c2c335ca4ac38b70f212eb12f3d3ab539683a152308e905918e5` |
+| Block | [40684478](https://bscscan.com/block/40684478) (Jul-22-2024 03:25:16 AM +UTC) |
+| Link | `https://snapshots.48.club/pbss.fast.40684478.tar.zst` |
+| Size | 316.20G <-> 348.86G |
+| SHA256 | `4b60b4bf7263baefaaa79f1e02b772fbd4bb0994c3156506ecf9a6d5a6ebf636` |
 | Flags | `--history.transactions=90000 --syncmode=full --db.engine=pebble --tries-verify-mode=none` |
 | Disk Suggestion | Minimum(NVMe ≥ 500G), Suggestion(NVMe ≥ 1T)|
 
