@@ -4,6 +4,7 @@
 - *[Geth](#geth)*
     - *[Geth fast node](#geth-fast-node)*
     - *[Geth full node](#geth-full-node)*
+    - *[Erigon fast node](#erigon-fast-node)*
 - *[How to download](#how-to-download)*
     - *[pipeline download and extract](#pipeline-download-and-extract)*
     - *[multithreaded download](#multithreaded-download)*
@@ -34,6 +35,15 @@
 | SHA256 | `1eb1304745e5847c3d704161e6351ad3c07f59682404669874531d8484d31296` |
 | Flags | `--history.transactions=90000 --syncmode=full --db.engine=pebble` |
 | Disk Suggestion | Minimum(NVMe ≥ 1T), Suggestion(NVMe ≥ 2T)|
+
+[Back to TOC](#bsc-snapshots)
+
+### Erigon fast node
+
+| Field |Value |
+| --- | --- |
+| Version | [v1.2.14](https://github.com/node-real/bsc-erigon/releases/tag/v1.2.14) |
+| Tips | Comimg sooooon! |
 
 [Back to TOC](#bsc-snapshots)
 
