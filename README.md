@@ -4,13 +4,14 @@
 - *[Geth](#geth)*
     - *[Geth fast node](#geth-fast-node)*
     - *[Geth full node](#geth-full-node)*
+- *[Erigon](#erigon)*
     - *[Erigon fast node](#erigon-fast-node)*
 - *[How to download](#how-to-download)*
     - *[pipeline download and extract](#pipeline-download-and-extract)*
     - *[multithreaded download](#multithreaded-download)*
 
 ## Geth
-### Geth fast node 
+### Geth fast node
 
 | Field |Value |
 | --- | --- |
@@ -24,20 +25,21 @@
 
 [Back to TOC](#bsc-snapshots)
 
-### Geth full node 
+### Geth full node
 
 | Field |Value |
 | --- | --- |
-| Version | [v1.4.13](https://github.com/bnb-chain/bsc/releases/tag/v1.4.13) |
-| Block | [41342101](https://bscscan.com/block/41342101) (Aug-14-2024 12:48:03 AM +UTC) |
-| Link | `https://snapshots.48.club/geth.pbss.41342101.tar.zst` |
-| Size | 870.42G <-> 953.20G |
-| SHA256 | `1eb1304745e5847c3d704161e6351ad3c07f59682404669874531d8484d31296` |
+| Version | [v1.4.14](https://github.com/bnb-chain/bsc/releases/tag/v1.4.14) |
+| Block | [41723605](https://bscscan.com/block/41723605) (Aug-27-2024 07:35:47 AM +UTC) |
+| Link | `https://snapshots.48.club/geth.full.41723605.tar.zst` |
+| Size | 867.71G <-> 948.75G |
+| SHA256 | `d218463e0d50f35690c5ccfd2dff52efd8506fd0383baf156b12f7edde71970e` |
 | Flags | `--history.transactions=90000 --syncmode=full --db.engine=pebble` |
-| Disk Suggestion | Minimum(NVMe ≥ 1T), Suggestion(NVMe ≥ 2T)|
+| Disk Suggestion | Minimum(NVMe ≥ 1.2T), Suggestion(NVMe ≥ 2T)|
 
 [Back to TOC](#bsc-snapshots)
 
+## Erigon
 ### Erigon fast node
 
 | Field |Value |

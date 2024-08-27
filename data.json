@@ -1,22 +1,15 @@
 {
-    "path": {
+    "geth": {
         "local": {
-            "link": "https://snapshots.48.club/geth.pbss.41342101.tar.zst",
-            "sha256": "1eb1304745e5847c3d704161e6351ad3c07f59682404669874531d8484d31296"
+            "link": "https://snapshots.48.club/geth.full.41723605.tar.zst",
+            "sha256": "d218463e0d50f35690c5ccfd2dff52efd8506fd0383baf156b12f7edde71970e"
         },
         "none": {
             "link": "https://snapshots.48.club/pbss.fast.40684478.tar.zst",
             "sha256": "4b60b4bf7263baefaaa79f1e02b772fbd4bb0994c3156506ecf9a6d5a6ebf636"
         }
     },
-    "hash": {
-        "local": {
-            "link": "https://snapshots.48.club/geth.full.40716054.tar.zst",
-            "sha256": "9cab923795a79ae7ef18ef70ff14af40e09cbad2b5e24c54d54e2d1da48ca790"
-        },
-        "none": {
-            "link": "https://snapshots.48.club/geth.fast.40554701.tar.zst",
-            "sha256": "86ee0503ed3daf0eef0a9e4f67d6043d94693a846c1a675b7e0a00f0b74c1e0b"
-        }
+    "erigon": {
+        "htrc": {}
     }
 }
