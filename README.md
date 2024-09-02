@@ -16,10 +16,10 @@
 | Field |Value |
 | --- | --- |
 | Version | [v1.4.14](https://github.com/bnb-chain/bsc/releases/tag/v1.4.14) |
-| Block | [41743263](https://bscscan.com/block/41743263) (Aug-28-2024 12:02:20 AM +UTC) |
-| Link | `https://snapshots.48.club/geth.fast.41743263.tar.zst` |
-| Size | 319.20G <-> 351.42G |
-| SHA256 | `35d13be4e12ce9c45a6af234002dce8b47c3440dfcf823054fc02051debfade1` |
+| Block | [41907864](https://bscscan.com/block/41907864) (Sep-02-2024 05:37:10 PM +UTC) |
+| Link | `https://snapshots.48.club/geth.fast.41907864.tar.zst` |
+| Size | 319.16G <-> 351.50G |
+| SHA256 | `cd6abac061728c08d9a8ae525ef3bdbe8f768f36d27ec18248f8c1422686d867` |
 | Flags | `--history.transactions=90000 --syncmode=full --db.engine=pebble --tries-verify-mode=none` |
 | Disk Suggestion | Minimum(NVMe ≥ 500G), Suggestion(NVMe ≥ 1T)|
 
@@ -44,7 +44,7 @@
 
 | Field |Value |
 | --- | --- |
-| Version | [v1.2.14](https://github.com/node-real/bsc-erigon/releases/tag/v1.2.14) |
+| Version | [v1.2.15](https://github.com/node-real/bsc-erigon/releases/tag/v1.2.15) |
 | Tips | Comimg sooooon! |
 
 [Back to TOC](#bsc-snapshots)
