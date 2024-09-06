@@ -1,8 +1,8 @@
 {
     "geth": {
         "local": {
-            "link": "https://snapshots.48.club/geth.full.41900885.tar.zst",
-            "sha256": "f157d4d35a57987a8ee6b289db4eea1080d2fd4bcec30fa07b5dcd79cfa79095"
+            "link": "https://snapshots.48.club/geth.full.42009486.tar.zst",
+            "sha256": "663ddb36a69d8c5af9edccf7c9b85aed78960071edc8f4f10472a59761815718"
         },
         "none": {
             "link": "https://snapshots.48.club/geth.fast.41907864.tar.zst",
