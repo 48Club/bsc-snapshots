@@ -10,6 +10,13 @@
         }
     },
     "erigon": {
-        "htrc": {}
+        "fast": {
+            "link": "https://snapshots.48.club/erigon.42098328.tar.zst",
+            "sha256": "6abb0b69d57a8c396563470ef2f2b212ff7ae1eb96e0e7fa8b89813a3593b1b7"
+        },
+        "snapshots": {
+            "link": "https://snapshots.48.club/snapshots.42000000.tar.zst",
+            "sha256": "cdb55fbf43e44f0a294f6c7e2a663681161357784290b2f5bceb337d24f75c70"
+        }
     }
 }
