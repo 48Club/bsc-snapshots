@@ -20,12 +20,4 @@ for key in $(echo $jq_str | jq -r 'keys[]'); do
     jq_str=$(echo $jq_str | jq --arg arg_key "$key" '.[$arg_key] |= unique')
 done
 
-echo $jq_str | jq > erigon_snapshots.json
-
-for key in $(jq -r 'keys[]' < erigon_snapshots.json); do
-    jq -r --arg arg_key "$key" '.[$arg_key][]' < erigon_snapshots.json > _download_list.txt
-    mkdir -p $key
-    aria2c -i _download_list.txt -d $key -x 16 -s 16
-done
-
-rm -f _download_list.txt
+echo $jq_str | jq -c > erigon_snapshots.json

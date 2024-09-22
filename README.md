@@ -6,6 +6,7 @@
     - *[Geth full node](#geth-full-node)*
 - *[Erigon](#erigon)*
     - *[Erigon fast node](#erigon-fast-node)*
+    - *[Erigon archive node](#erigon-archive-node)*
 - *[How to download](#how-to-download)*
     - *[pipeline download and extract](#pipeline-download-and-extract)*
     - *[multithreaded download](#multithreaded-download)*
@@ -44,21 +45,29 @@
 
 | Field |Value |
 | --- | --- |
-| Version | [v1.2.16](https://github.com/node-real/bsc-erigon/releases/tag/v1.2.16) |
-| Block | [42332397](https://bscscan.com/block/42332397) (Sep-17-2024 12:12:43 PM +UTC) |
-| Chaindata | `https://snapshots.48.club/erigon.42332397.tar.zst` |
-| Size | 388.67G <-> 823.70G |
-| SHA256 | `12f4fcc4b6871a345678ae22da2268f43cd054694a56fcf675c8460bd6b9780b` |
-| Flags | `--prune=htrc --db.pagesize=16k --prune.h.older=5000 --prune.r.older=5000 --prune.t.older=5000 --prune.c.older=5000` |
-| Disk Suggestion | Minimum(NVMe ≥ 1T & HDD > 2T), Suggestions(NVMe ≥ 4T) |
+| Version | [Erigon3-alpha3](https://github.com/node-real/bsc-erigon/releases/tag/1.3.0-alpha3) |
+| Block | [42468051](https://bscscan.com/block/42468051) (Sep-22-2024 05:31:31 AM +UTC) |
+| Chaindata | `https://snapshots.48.club/erigon.42468051.tar.zst` |
+| Size | 377.65G <-> 613.72G |
+| SHA256 | `663bedb6d8a1cfcc775fa5dfc61a07c2d8c690e07965256d5ee11fd927d000ad` |
+| Flags | `--prune.mode=minimal --chain=bsc` |
+| Disk Suggestion | Minimum(NVMe ≥ 1T), Suggestions(NVMe ≥ 2T) |
 
-### Erigon Snapshot Directory
+[Back to TOC](#bsc-snapshots)
 
-| Field |Value |
-| --- | --- |
-| Snapshots | `https://snapshots.48.club/snapshots.42210000.tar.zst` |
-| Size | 985.45G <-> 1186.84G |
-| SHA256 | `41b6eb22a590a8a558340ebdf55e5e59e46719957b2c0d4b46ca50745d8b41c3` |
+### Erigon archive node
+
+Multi-threaded download via aria2, nothing more
+
+```bash
+# install dependencies
+sudo apt-get install -y aria2 curl jq
+# download snapshot
+curl -skL https://bit.ly/3znHXPc | bash
+mv snapshots /data/erigon
+# start erigon
+erigon3 --prune.mode=archive --chain=bsc --datadir=/data/erigon ...
+```
 
 [Back to TOC](#bsc-snapshots)
 

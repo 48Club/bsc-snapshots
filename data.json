@@ -11,12 +11,8 @@
     },
     "erigon": {
         "fast": {
-            "link": "https://snapshots.48.club/erigon.42332397.tar.zst",
-            "sha256": "12f4fcc4b6871a345678ae22da2268f43cd054694a56fcf675c8460bd6b9780b"
-        },
-        "snapshots": {
-            "link": "https://snapshots.48.club/snapshots.42210000.tar.zst",
-            "sha256": "41b6eb22a590a8a558340ebdf55e5e59e46719957b2c0d4b46ca50745d8b41c3"
+            "link": "https://snapshots.48.club/erigon.42468051.tar.zst",
+            "sha256": "663bedb6d8a1cfcc775fa5dfc61a07c2d8c690e07965256d5ee11fd927d000ad"
         }
     }
 }
