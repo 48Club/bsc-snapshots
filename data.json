@@ -1,12 +1,12 @@
 {
     "geth": {
+        "none": {
+            "link": "https://snapshots.48.club/geth.fast.42563551.tar.zst",
+            "sha256": "b4e940a67e63b0f6292517ff309572711921319f1eb2378e98d950ac6db38882"
+        },
         "local": {
             "link": "https://snapshots.48.club/geth.full.42451514.tar.zst",
             "sha256": "ea23cc8861bb1acc9022463b535441668830e8b9447cdfcdc562cefccad29e52"
-        },
-        "none": {
-            "link": "https://snapshots.48.club/geth.fast.42447018.tar.zst",
-            "sha256": "84be08102c964fbedb7ffd0d2b7d9b5764208d0549f0e4cae50c1c9762a4269c"
         }
     },
     "erigon": {
