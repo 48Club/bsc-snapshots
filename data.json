@@ -5,8 +5,8 @@
             "sha256": "b4e940a67e63b0f6292517ff309572711921319f1eb2378e98d950ac6db38882"
         },
         "local": {
-            "link": "https://snapshots.48.club/geth.full.42451514.tar.zst",
-            "sha256": "ea23cc8861bb1acc9022463b535441668830e8b9447cdfcdc562cefccad29e52"
+            "link": "https://snapshots.48.club/geth.full.42615347.tar.zst",
+            "sha256": "b28a23a4184b913e8c4254d1845452fd16caf31e0f7aa0c9533a60d373e21263"
         }
     },
     "erigon": {
