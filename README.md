@@ -63,7 +63,7 @@ Multi-threaded download via aria2, nothing more
 # install dependencies
 sudo apt-get install -y aria2 curl jq
 # download snapshot
-curl -skL https://bit.ly/3znHXPc | bash
+curl -skL https://raw.githubusercontent.com/48Club/bsc-snapshots/refs/heads/main/script/erigon_archive_download.sh | bash
 mv snapshots /data/erigon
 # start erigon
 erigon3 --prune.mode=archive --chain=bsc --datadir=/data/erigon ...
