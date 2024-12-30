@@ -1,0 +1,22 @@
+{
+    "complete": {
+        "geth": {
+            "none": {
+                "link": "https://snapshots.48.club/geth.fast.44014252.tar.zst",
+                "sha256": "4e475f5c84787e81550dfbf08010150cb3b405c12018d79a42f777ac4dcaf07a",
+                "flags": "--history.transactions=90000 --syncmode=full --db.engine=pebble --tries-verify-mode=none"
+            },
+            "local": {
+                "link": "https://snapshots.48.club/geth.full.44031603.tar.zst",
+                "sha256": "4e475f5c84787e81550dfbf08010150cb3b405c12018d79a42f777ac4dcaf07a",
+                "flags": "--history.transactions=90000 --syncmode=full --db.engine=pebble --tries-verify-mode=local"
+            }
+        }
+    },
+    "incremental": {
+        "geth": [
+            "https://snapshots.48.club/geth_fast_44014252_to_45329863.patch"
+        ],
+        "erigon": {}
+    }
+}
