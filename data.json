@@ -1,0 +1,26 @@
+{
+    "geth": {
+        "none": {
+            "link": "https://complete.snapshots.48.club/geth.fast.46245923.tar.zst",
+            "md5": "731a70c2d88981ad0bae6524b9bc0f19",
+            "env": {},
+            "flags": "--history.transactions=90000 --syncmode=full --db.engine=pebble --tries-verify-mode=none"
+        },
+        "local": {
+            "link": "https://complete.snapshots.48.club/geth.full.46245923.tar.zst",
+            "md5": "ec8fdb00cbfeace843d2db42bdaf2cf6",
+            "env": {},
+            "flags": "--history.transactions=90000 --syncmode=full --db.engine=pebble --tries-verify-mode=local"
+        }
+    },
+    "erigon": {
+        "fast": {
+            "link": "https://complete.snapshots.48.club/erigon.45809895.tar.zst",
+            "md5": "c29e56b7a44df4b098bf1e809f06c1b0",
+            "env": {
+                "ERIGON_DISCARD_COMMITMENT": true
+            },
+            "flags": "--prune.mode=archive --prune.distance.blocks=90000 --prune.distance=90000 --db.pagesize=16kb"
+        }
+    }
+}
