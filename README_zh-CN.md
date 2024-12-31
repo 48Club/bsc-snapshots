@@ -33,7 +33,6 @@ _修补到高度 45352858_
 | --- | --- | --- |
 | [geth_fast_45012199_to_45352858.patch](https://incremental.snapshots.48.club/geth_fast_45012199_to_45352858.patch) | `bc7df306b175bf524cc514dbac86eaa1` | 26.96G |
 | [geth_fast_45329863_to_45352858.patch](https://incremental.snapshots.48.club/geth_fast_45329863_to_45352858.patch) | `8959024006068dd9cfd326d3095c41e8` | 9.69G |
-</details>
 
 ### Geth 全节点
 
@@ -42,8 +41,6 @@ _修补到高度 45354930_
 | 文件 | md5 | 体积 |
 | --- | --- | --- |
 | [geth_full_45003222_to_45354930.patch](https://incremental.snapshots.48.club/geth_full_45003222_to_45354930.patch) | `18b638be8b3d59e39a855221a0215ddb` | 55.73G |
-</details>
-
 
 ### 使用教程
 
