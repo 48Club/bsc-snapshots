@@ -9,6 +9,9 @@
         45354930
     ],
     "erigon": [
-        44093268
-    ]
+        45363273
+    ],
+    "geth_fast_45012199_to_45352858.patch": "bc7df306b175bf524cc514dbac86eaa1",
+    "geth_fast_45329863_to_45352858.patch": "8959024006068dd9cfd326d3095c41e8",
+    "geth_full_45003222_to_45354930.patch": "18b638be8b3d59e39a855221a0215ddb"
 }
