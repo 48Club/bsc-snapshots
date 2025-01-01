@@ -1,14 +1,14 @@
 {
-    "geth.fast": [
+    "geth_fast_": [
         45012199,
         45329863,
         45352858
     ],
-    "geth.full": [
+    "geth_full_": [
         45003222,
         45354930
     ],
-    "erigon": [
+    "erigon_": [
         45363273
     ],
     "geth_fast_45012199_to_45352858.patch": "bc7df306b175bf524cc514dbac86eaa1",
