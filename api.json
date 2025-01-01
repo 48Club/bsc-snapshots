@@ -2,7 +2,8 @@
     "geth_fast_": [
         45012199,
         45329863,
-        45352858
+        45352858,
+        45379803
     ],
     "geth_full_": [
         45003222,
@@ -11,7 +12,8 @@
     "erigon_": [
         45363273
     ],
-    "geth_fast_45012199_to_45352858.patch": "bc7df306b175bf524cc514dbac86eaa1",
-    "geth_fast_45329863_to_45352858.patch": "8959024006068dd9cfd326d3095c41e8",
+    "geth_fast_45012199_to_45379803.patch": "e830da4fcf565146191e55b442a88f47",
+    "geth_fast_45329863_to_45379803.patch": "7642832689964c85b12e2610095afaf0",
+    "geth_fast_45352858_to_45379803.patch": "35eeff332cbf9325203d56ac99252d75",
     "geth_full_45003222_to_45354930.patch": "18b638be8b3d59e39a855221a0215ddb"
 }
