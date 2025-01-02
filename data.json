@@ -15,7 +15,7 @@
         "fast": {
             "link": "https://complete.snapshots.48.club/erigon.45363273.tar.zst",
             "md5": "054c93b4617550bfcf61cb0be5566efb",
-            "flags": "--prune.mode=archive --prune.distance.blocks=90000 --prune.distance=90000 --db.pagesize=64kb"
+            "flags": "--prune.mode=archive --prune.distance.blocks=90000 --prune.distance=90000 --db.pagesize=16kb"
         }
     }
 }
