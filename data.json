@@ -1,12 +1,12 @@
 {
     "geth": {
         "none": {
-            "link": "https://snapshots.48.club/geth.fast.45012199.tar.zst",
+            "link": "https://complete.snapshots.48.club/geth.fast.45012199.tar.zst",
             "md5": "f11f5ec9afc7ae67d69e28060b6c3dad",
             "flags": "--history.transactions=90000 --syncmode=full --db.engine=pebble --tries-verify-mode=none"
         },
         "local": {
-            "link": "https://snapshots.48.club/geth.full.45003222.tar.zst",
+            "link": "https://complete.snapshots.48.club/geth.full.45003222.tar.zst",
             "md5": "9cd00a2ecba312692cfcbb86433962e4",
             "flags": "--history.transactions=90000 --syncmode=full --db.engine=pebble --tries-verify-mode=local"
         }
