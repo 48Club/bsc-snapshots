@@ -63,11 +63,11 @@ du -h bsc_node/geth geth.fast/geth
 20G	geth.fast/geth/chaindata/ancient
 378G	geth.fast/geth/chaindata
 378G	geth.fast/geth
-# 启动节点
+# 启动节点, flags 参数你可以从 data.json 中获取
 geth --datadir bsc_node $flags
 
 # 修补到区块 45329863 为例, $download_link 请替换为你的下载链接
-wget $download_link -O geth_fast_45012199_to_45329863.patch
+aria2c -s4 -x4 -k1024M $download_link -o geth_fast_45012199_to_45329863.patch
 # 可选: 验证文件完整性
 openssl md5 geth_fast_45012199_to_45329863.patch
 # 修补

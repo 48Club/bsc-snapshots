@@ -61,11 +61,11 @@ du -h bsc_node/geth geth.fast/geth
 20G	geth.fast/geth/chaindata/ancient
 378G	geth.fast/geth/chaindata
 378G	geth.fast/geth
-# Start the node
+# Start the node, the flags parameters can be obtained from the data.json file.
 geth --datadir bsc_node $flags
 
 # To update to block 45329863, replace $download_link with your download link
-wget $download_link -O geth_fast_45012199_to_45329863.patch
+aria2c -s4 -x4 -k1024M $download_link -o geth_fast_45012199_to_45329863.patch
 # Optional: Verify file integrity
 openssl md5 geth_fast_45012199_to_45329863.patch
 # Patch the snapshot
