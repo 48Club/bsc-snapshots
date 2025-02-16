@@ -13,8 +13,8 @@ BSC 主网全量快照，包含了完整的区块数据，适用于快速启动�
 
 | 文件 | md5 | 体积 |
 | --- | --- | --- |
-| [geth.fast.46245923.tar.zst](https://complete.snapshots.48.club/geth.fast.46245923.tar.zst) | `731a70c2d88981ad0bae6524b9bc0f19` | 216.66G |
-| [geth.full.46245923.tar.zst](https://complete.snapshots.48.club/geth.full.46245923.tar.zst) | `ec8fdb00cbfeace843d2db42bdaf2cf6` | 613.06G |
+| [geth.fast.46703740.tar.zst](https://complete.snapshots.48.club/geth.fast.46703740.tar.zst) | `731a70c2d88981ad0bae6524b9bc0f19` | 227.10G |
+| [geth.full.46703740.tar.zst](https://complete.snapshots.48.club/geth.full.46703740.tar.zst) | `cee8eaa5f17a9e269cbc040394f3b1f0` | 635.49G |
 | [erigon.45809895.tar.zst](https://complete.snapshots.48.club/erigon.45809895.tar.zst) | `c29e56b7a44df4b098bf1e809f06c1b0` | 199.37G |
 
 
