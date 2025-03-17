@@ -1,14 +1,14 @@
 {
     "geth": {
         "none": {
-            "link": "https://complete.snapshots.48.club/geth.fast.46911854.tar.zst",
-            "md5": "cb05cf5f6e5c862364b80fa8ad7c38b5",
+            "link": "https://complete.snapshots.48.club/geth.fast.47532370.tar.zst",
+            "md5": "9bf23c68f6f4dc761638ed6fe53c83f6",
             "env": {},
             "flags": "--history.transactions=90000 --syncmode=full --db.engine=pebble --tries-verify-mode=none"
         },
         "local": {
-            "link": "https://complete.snapshots.48.club/geth.full.46911854.tar.zst",
-            "md5": "dbd93d887d87434455224c76873c857c",
+            "link": "https://complete.snapshots.48.club/geth.full.47532370.tar.zst",
+            "md5": "5feb4a40cb391cd1e1e739499938e879",
             "env": {},
             "flags": "--history.transactions=90000 --syncmode=full --db.engine=pebble --tries-verify-mode=local"
         }
