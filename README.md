@@ -49,6 +49,11 @@ mkdir -p bsc_node/geth
 # Copy the snapshot to the working directory
 cp -r geth.fast/geth/chaindata bsc_node/geth/
 # If your file system supports reflink, the cp command will complete quickly and without additional disk space usage
+
+# For systems which doesn't support reflinks use the following commands
+mkdir -p bsc_node/geth
+rsync -a --progress geth.fast/geth/chaindata/ bsc_node/geth/chaindata/
+
 # Check your disk space
 du -h bsc_node/geth geth.fast/geth
 64K	bsc_node/geth/chaindata/ancient/state
