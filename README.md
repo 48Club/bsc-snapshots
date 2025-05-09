@@ -51,8 +51,8 @@ cp -r geth.fast/geth/chaindata bsc_node/geth/
 # If your file system supports reflink, the cp command will complete quickly and without additional disk space usage
 
 # For systems which doesn't support reflinks use the following commands
-mkdir -p bsc_node/geth
-rsync -a --progress geth.fast/geth/chaindata/ bsc_node/geth/chaindata/
+# mkdir bsc_node/geth/chaindata
+# rsync -a --progress geth.fast/geth/chaindata/ bsc_node/geth/chaindata/
 
 # Check your disk space
 du -h bsc_node/geth geth.fast/geth
@@ -80,9 +80,12 @@ rdiffdir patch geth.fast geth_fast_45012199_to_45329863.patch
 killall geth
 
 # Delete the old working directory
-rm -rf bsc_node/geth/chaindata
+rm -rf bsc_node/geth/chaindata # if you used rsync, you can skip this step
 # Replace with the patched data directory
 cp -r geth.fast/geth/chaindata bsc_node/geth/
+# For systems which doesn't support reflinks use the following commands
+# rsync -a --progress geth.fast/geth/chaindata/ bsc_node/geth/chaindata/
+
 # Start the patched node
 geth --datadir bsc_node $flags
 

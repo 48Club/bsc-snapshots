@@ -51,7 +51,12 @@ mkdir -p bsc_node/geth
 # copy 快照到工作目录
 cp -r geth.fast/geth/chaindata bsc_node/geth/
 # 如果你使用的文件系统支持 reflink, cp 命令将会在很短的时间完成, 并且不占用额外磁盘空间
-# 查看你的磁盘空间
+
+# 对于不支持 reflink 的文件系统使用以下命令
+# mkdir bsc_node/geth/chaindata
+# rsync -a --progress geth.fast/geth/chaindata/ bsc_node/geth/chaindata/
+
+# 检查你的磁盘空间
 du -h bsc_node/geth geth.fast/geth
 64K	bsc_node/geth/chaindata/ancient/state
 20G	bsc_node/geth/chaindata/ancient/chain
@@ -77,9 +82,12 @@ rdiffdir patch geth.fast geth_fast_45012199_to_45329863.patch
 killall geth
 
 # 删除旧的工作目录
-rm -rf bsc_node/geth/chaindata
+rm -rf bsc_node/geth/chaindata # 如果你使用 rsync, 可以跳过这一步
 # 替换为修补后的数据目录
 cp -r geth.fast/geth/chaindata bsc_node/geth/
+# 对于不支持 reflink 的文件系统使用以下命令
+# rsync -a --progress geth.fast/geth/chaindata/ bsc_node/geth/chaindata/
+
 # 启动修补后的节点
 geth --datadir bsc_node $flags
 
