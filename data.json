@@ -1,26 +1,36 @@
 {
     "geth": {
         "none": {
-            "link": "https://complete.snapshots.48.club/geth.fast.46245923.tar.zst",
-            "md5": "731a70c2d88981ad0bae6524b9bc0f19",
-            "env": {},
-            "flags": "--history.transactions=90000 --syncmode=full --db.engine=pebble --tries-verify-mode=none"
+            "link": "https://complete.snapshots.48.club/geth.fast.63753079.tar.zst",
+            "md5": "bdb996b6fe2dd26e5bbbbca0407e8d6c",
+            "env": {
+                "GETH_HISTORY_TRANSACTIONS": 360000,
+                "GETH_HISTORY_BLOCKS": 360000,
+                "GETH_HISTORY_LOGS_DISABLE": true,
+                "GETH_TRIES_VERIFY_MODE": "none"
+            },
+            "flags": "--history.transactions=360000 --history.blocks=360000 --history.logs.disable=true --tries-verify-mode=none"
         },
         "local": {
-            "link": "https://complete.snapshots.48.club/geth.full.46245923.tar.zst",
-            "md5": "ec8fdb00cbfeace843d2db42bdaf2cf6",
-            "env": {},
-            "flags": "--history.transactions=90000 --syncmode=full --db.engine=pebble --tries-verify-mode=local"
+            "link": "https://complete.snapshots.48.club/geth.full.63753079.tar.zst",
+            "md5": "29b50ab6fd4555e0eccd33b4b5b021b5",
+            "env": {
+                "GETH_HISTORY_TRANSACTIONS": 360000,
+                "GETH_HISTORY_BLOCKS": 360000,
+                "GETH_HISTORY_LOGS": 360000,
+                "GETH_TRIES_VERIFY_MODE": "local"
+            },
+            "flags": "--history.transactions=360000 --history.blocks=360000 --history.logs=360000 --tries-verify-mode=local"
         }
     },
     "erigon": {
         "fast": {
-            "link": "https://complete.snapshots.48.club/erigon.45809895.tar.zst",
-            "md5": "c29e56b7a44df4b098bf1e809f06c1b0",
+            "link": "https://complete.snapshots.48.club/erigon.52186763.tar.zst",
+            "md5": "4e36fbf810ed101da7cffd36bb519863",
             "env": {
                 "ERIGON_DISCARD_COMMITMENT": true
             },
-            "flags": "--prune.mode=archive --prune.distance.blocks=90000 --prune.distance=90000 --db.pagesize=16kb"
+            "flags": "--prune.mode=archive --prune.distance.blocks=360000 --prune.distance=360000 --sync.loop.block.limit=90000 --db.pagesize=16kb --txpool.disable --diagnostics.disabled --batchSize=4096m --bodies.cache=4294967296"
         }
     }
 }

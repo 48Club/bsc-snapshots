@@ -1,87 +1,49 @@
 # *bsc-snapshots*
 
-- *[Full Snapshots](#full-snapshots)*
+- *[Snapshots](#snapshots)*
 - *[Incremental Snapshots](#incremental-snapshots)*
 - *[User Guide](#user-guide)*
-- *[简体中文](/README_zh-CN.md)*
+## Snapshots
 
-## Full Snapshots
+Snapshots of the BSC mainnet, containing complete block data, suitable for quickly starting a node.
 
-Full snapshots of the BSC mainnet, containing complete block data, suitable for quickly starting a node.
+*Startup requires flags or environment variables provided in data.json.*
+
+*Geth Snapshots are compatible with Geth v1.6.1 and above.*
 
 | File | md5 | Size |
 | --- | --- | --- |
-| [geth.fast.46245923.tar.zst](https://complete.snapshots.48.club/geth.fast.46245923.tar.zst) | `731a70c2d88981ad0bae6524b9bc0f19` | 216.66G |
-| [geth.full.46245923.tar.zst](https://complete.snapshots.48.club/geth.full.46245923.tar.zst) | `ec8fdb00cbfeace843d2db42bdaf2cf6` | 613.06G |
-| [erigon.45809895.tar.zst](https://complete.snapshots.48.club/erigon.45809895.tar.zst) | `c29e56b7a44df4b098bf1e809f06c1b0` | 199.37G |
-
+| [geth.fast.63753079.tar.zst](https://complete.snapshots.48.club/geth.fast.63753079.tar.zst) | `bdb996b6fe2dd26e5bbbbca0407e8d6c` | 295.44G |
+| [geth.full.63753079.tar.zst](https://complete.snapshots.48.club/geth.full.63753079.tar.zst) | `29b50ab6fd4555e0eccd33b4b5b021b5` | 789.63G |
+| [erigon.52186763.tar.zst](https://complete.snapshots.48.club/erigon.52186763.tar.zst) | `4e36fbf810ed101da7cffd36bb519863` | 280.99G |
 
 ## Incremental Snapshots
 
-_⚠️Note: Incremental snapshot service is a 48SoulPoint membership service_
+The BSC-geth test function is currently unstable and may frequently fail. This issue is known, but no solution is provided for now.
 
 
-BSC mainnet incremental snapshots allow you to quickly update to the latest snapshot from any version within the last 30 days.
+~~Incremental snapshots is a feature that allow you to download only the changes made since the last snapshot, significantly reducing the amount of data you need to transfer.~~
 
-You need to get the patch file for updating to the latest version from https://access.snapshots.48.club.
+~~If this is your first time using the `48Club` snapshots, start by downloading the full snapshot; thereafter, use incremental snapshots to keep your node up to date.~~
+
+~~To enable incremental snapshots, use the `--incr.use-remote` flag, set the remote URL with `--incr.remote-url="https://incremental-snap.48.club/48club-full-incr"` and specify a directory for storing incremental data via `--incr.datadir`.~~
 
 
 ### User Guide
 
-We recommend users to use file systems like `xfs` that support `reflink`, allowing you to create and update snapshots without taking up additional disk space.
-
-This tutorial uses snapshot version `45012199` as an example to start a new node. Please adapt accordingly. If it's difficult to understand, use the full snapshot instead.
-
-
 ```bash
 # Using 48Club snapshots for the first time
 # Install dependencies, using Debian 12 as an example
-sudo apt install -y aria2 zstd duplicity
+sudo apt install -yfqq aria2 zstd pv openssl tar screen
 # Download the snapshot
-aria2c -s4 -x4 -k1024M https://snapshots.48.club/geth.fast.45012199.tar.zst
+aria2c -s4 -x4 -k1024M -o snapshot.tar.zst $SNAPSHOT_URL
 # Optional: Verify file integrity
-openssl md5 geth.fast.45012199.tar.zst
+pv snapshot.tar.zst | openssl md5
 # Extract the snapshot
-zstd -cd geth.fast.45012199.tar.zst | tar xf -
-
-# Create your working directory
-mkdir -p bsc_node/geth
-# Copy the snapshot to the working directory
-cp -r geth.fast/geth/chaindata bsc_node/geth/
-# If your file system supports reflink, the cp command will complete quickly and without additional disk space usage
-# Check your disk space
-du -h bsc_node/geth geth.fast/geth
-64K	bsc_node/geth/chaindata/ancient/state
-20G	bsc_node/geth/chaindata/ancient/chain
-20G	bsc_node/geth/chaindata/ancient
-378G	bsc_node/geth/chaindata
-378G	bsc_node/geth
-64K	geth.fast/geth/chaindata/ancient/state
-20G	geth.fast/geth/chaindata/ancient/chain
-20G	geth.fast/geth/chaindata/ancient
-378G	geth.fast/geth/chaindata
-378G	geth.fast/geth
-# Start the node, the flags parameters can be obtained from the data.json file.
-geth --datadir bsc_node $flags
-
-# To update to block 45329863, replace $download_link with your download link
-aria2c -s4 -x4 -k1024M $download_link -o geth_fast_45012199_to_45329863.patch
-# Optional: Verify file integrity
-openssl md5 geth_fast_45012199_to_45329863.patch
-# Patch the snapshot
-rdiffdir patch geth.fast geth_fast_45012199_to_45329863.patch
+pv snapshot.tar.zst | tar --use-compress-program="zstd -d" -xf -
 
 # Stop the node
-killall geth
-
-# Delete the old working directory
-rm -rf bsc_node/geth/chaindata
-# Replace with the patched data directory
-cp -r geth.fast/geth/chaindata bsc_node/geth/
-# Start the patched node
-geth --datadir bsc_node $flags
-
-# Note: Your geth.fast directory version is now 45329863
-#      For the next update, use geth_fast_45329863_to_xxxxxx.patch
-#      Do not perform any operations in the geth.fast directory to avoid affecting the update
+killall -9 geth ## or killall -9 erigon
+# Start the node, the flags parameters can be obtained from the data.json file.
+geth --datadir=$new_snapshot_path $flags...
 ```
