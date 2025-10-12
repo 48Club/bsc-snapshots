@@ -9,13 +9,14 @@ Snapshots of the BSC mainnet, containing complete block data, suitable for quick
 
 *Startup requires flags or environment variables provided in data.json.*
 
-*Geth Snapshots are compatible with Geth v1.6.1 and above.*
+*Geth Snapshots are compatible with Geth v1.6.4 and above.*
 
 | File | md5 | Size |
 | --- | --- | --- |
-| [geth.fast.63753079.tar.zst](https://complete.snapshots.48.club/geth.fast.63753079.tar.zst) | `bdb996b6fe2dd26e5bbbbca0407e8d6c` | 295.44G |
-| [geth.full.63753079.tar.zst](https://complete.snapshots.48.club/geth.full.63753079.tar.zst) | `29b50ab6fd4555e0eccd33b4b5b021b5` | 789.63G |
-| [erigon.52186763.tar.zst](https://complete.snapshots.48.club/erigon.52186763.tar.zst) | `4e36fbf810ed101da7cffd36bb519863` | 280.99G |
+| [geth.fast.73590500.tar.zst](https://complete.snapshots.48.club/geth.fast.73590500.tar.zst) | `271db623a33ee489912b52b2f9fa87cf` | 360.05G |
+| [geth.full.73590500.tar.zst](https://complete.snapshots.48.club/geth.full.73590500.tar.zst) | `943f446cf57c03160a0df9422c4520f2` | 930.64G |
+| [reth.full.70572117.tar.zst](https://complete.snapshots.48.club/reth.full.70572117.tar.zst) | `d427e0946d9a65865db4de9f1fabaf41` | 4288.60G |
+| [reth.archive.70012269.tar.zst](https://complete.snapshots.48.club/reth.archive.70012269.tar.zst) | `021dc5cba6b41e3567d0198f099e282a` | 9,700.72G |
 
 ## Incremental Snapshots
 
@@ -40,7 +41,7 @@ aria2c -s4 -x4 -k1024M -o snapshot.tar.zst $SNAPSHOT_URL
 # Optional: Verify file integrity
 pv snapshot.tar.zst | openssl md5
 # Extract the snapshot
-pv snapshot.tar.zst | tar --use-compress-program="zstd -d" -xf -
+pv snapshot.tar.zst | tar --use-compress-program="zstd -d --long=31" -xf -
 
 # Stop the node
 killall -9 geth ## or killall -9 erigon
