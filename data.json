@@ -1,26 +1,28 @@
 {
     "geth": {
         "none": {
-            "link": "https://complete.snapshots.48.club/geth.fast.64099914.tar.zst",
-            "md5": "69bb5f843862abf105545203256896f3",
+            "link": "https://complete.snapshots.48.club/geth.fast.65523991.tar.zst",
+            "md5": "48192775c64f97c6a1c04e2da9fea66e",
             "env": {
                 "GETH_HISTORY_TRANSACTIONS": 360000,
                 "GETH_HISTORY_BLOCKS": 360000,
                 "GETH_HISTORY_LOGS_DISABLE": true,
+                "GETH_MULTIDATABASE": true,
                 "GETH_TRIES_VERIFY_MODE": "none"
             },
-            "flags": "--history.transactions=360000 --history.blocks=360000 --history.logs.disable=true --tries-verify-mode=none"
+            "flags": "--history.transactions=360000 --history.blocks=360000 --history.logs.disable=true --multidatabase=true --tries-verify-mode=none"
         },
         "local": {
-            "link": "https://complete.snapshots.48.club/geth.full.64099914.tar.zst",
-            "md5": "36cd7c1f15ea1280a1ffb46c6c75df46",
+            "link": "https://complete.snapshots.48.club/geth.full.65523991.tar.zst",
+            "md5": "5974914c9839d0c52e856436c6f872f5",
             "env": {
                 "GETH_HISTORY_TRANSACTIONS": 360000,
                 "GETH_HISTORY_BLOCKS": 360000,
                 "GETH_HISTORY_LOGS": 360000,
+                "GETH_MULTIDATABASE": true,
                 "GETH_TRIES_VERIFY_MODE": "local"
             },
-            "flags": "--history.transactions=360000 --history.blocks=360000 --history.logs=360000 --tries-verify-mode=local"
+            "flags": "--history.transactions=360000 --history.blocks=360000 --history.logs=360000 --multidatabase=true --tries-verify-mode=local"
         }
     },
     "erigon": {
