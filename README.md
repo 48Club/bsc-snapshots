@@ -15,7 +15,8 @@ Snapshots of the BSC mainnet, containing complete block data, suitable for quick
 | --- | --- | --- |
 | [geth.fast.68466299.tar.zst](https://complete.snapshots.48.club/geth.fast.68466299.tar.zst) | `379e73eacf686e0dac920ddeb27d2553` | 289.08G |
 | [geth.full.68466299.tar.zst](https://complete.snapshots.48.club/geth.full.68466299.tar.zst) | `454a2eebc873da5774b3eaca41526331` | 816.59G |
-| [erigon.52186763.tar.zst](https://complete.snapshots.48.club/erigon.52186763.tar.zst) | `4e36fbf810ed101da7cffd36bb519863` | 280.99G |
+| [reth.full.70572117.tar.zst](https://complete.snapshots.48.club/reth.full.70572117.tar.zst) | `d427e0946d9a65865db4de9f1fabaf41` | 4288.60G |
+| [reth.archive.70012269.tar.zst](https://complete.snapshots.48.club/reth.archive.70012269.tar.zst) | `021dc5cba6b41e3567d0198f099e282a` | 9,700.72G |
 
 ## Incremental Snapshots
 
@@ -40,7 +41,7 @@ aria2c -s4 -x4 -k1024M -o snapshot.tar.zst $SNAPSHOT_URL
 # Optional: Verify file integrity
 pv snapshot.tar.zst | openssl md5
 # Extract the snapshot
-pv snapshot.tar.zst | tar --use-compress-program="zstd -d" -xf -
+pv snapshot.tar.zst | tar --use-compress-program="zstd -d --long=31" -xf -
 
 # Stop the node
 killall -9 geth ## or killall -9 erigon

@@ -25,14 +25,18 @@
             "flags": "--history.transactions=600000 --history.blocks=600000 --history.logs.disable=true --multidatabase=true --tries-verify-mode=local"
         }
     },
-    "erigon": {
-        "fast": {
-            "link": "https://complete.snapshots.48.club/erigon.52186763.tar.zst",
-            "md5": "4e36fbf810ed101da7cffd36bb519863",
-            "env": {
-                "ERIGON_DISCARD_COMMITMENT": true
-            },
-            "flags": "--prune.mode=archive --prune.distance.blocks=360000 --prune.distance=360000 --sync.loop.block.limit=90000 --db.pagesize=16kb --txpool.disable --diagnostics.disabled --batchSize=4096m --bodies.cache=4294967296"
+    "reth": {
+        "full": {
+            "link": "https://complete.snapshots.48.club/reth.full.70572117.tar.zst",
+            "md5": "d427e0946d9a65865db4de9f1fabaf41",
+            "env": {},
+            "flags": "--prune.transactionlookup.distance=5760000 --prune.receipts.distance=5760000 --prune.accounthistory.distance=5760000 --prune.storagehistory.distance=5760000 --prune.senderrecovery.full --prune.bodies.pre-merge"
+        },
+        "archive": {
+            "link": "https://complete.snapshots.48.club/reth.archive.70012269.tar.zst",
+            "md5": "021dc5cba6b41e3567d0198f099e282a",
+            "env": {},
+            "flags": "--prune.transactionlookup.before=16000000 --prune.receipts.before=16000000 --prune.accounthistory.before=16000000  --prune.storagehistory.before=16000000 --prune.senderrecovery.full --prune.bodies.pre-merge"
         }
     }
 }
