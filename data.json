@@ -2,7 +2,7 @@
     "geth": {
         "none": {
             "link": "https://complete.snapshots.48.club/geth.fast.74688760.tar.zst",
-            "md5": "271db623a33ee489912b52b2f9fa87cf",
+            "md5": "6c6ae5b0aafc97eb2a0bb3ee40c60f6a",
             "env": {
                 "GETH_HISTORY_TRANSACTIONS": 1152000,
                 "GETH_HISTORY_BLOCKS": 1152000,
