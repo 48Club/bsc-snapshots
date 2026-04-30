@@ -9,12 +9,12 @@ Snapshots of the BSC mainnet, containing complete block data, suitable for quick
 
 *Startup requires flags or environment variables provided in data.json.*
 
-*Geth Snapshots are compatible with Geth v1.7.2 and above.*
+*Geth Snapshots are compatible with Geth v1.7.3 and above.*
 
 | File | md5 | Size |
 | --- | --- | --- |
-| [geth.fast.94560000.tar.zst](https://complete.snapshots.48.club/geth.fast.94560000.tar.zst) | `a4847fc89834d761add7abfc1bd64f87` | 364.58G |
-| [geth.full.94560000.tar.zst](https://complete.snapshots.48.club/geth.full.94560000.tar.zst) | `47ebcfd91ca4ef5e6ce622aa0f76124e` | 1050.78G |
+| [geth.fast.95520000.tar.zst](https://complete.snapshots.48.club/geth.fast.95520000.tar.zst) | `e94043c07d82ef3988ee5e6ad99dca9d` | 362.30G |
+| [geth.full.95520000.tar.zst](https://complete.snapshots.48.club/geth.full.95520000.tar.zst) | `0adaf4726c81277db17e661edb4640ab` | 1049.86G |
 | [reth.full.70572117.tar.zst](https://complete.snapshots.48.club/reth.full.70572117.tar.zst) | `d427e0946d9a65865db4de9f1fabaf41` | 4288.60G |
 | [reth.archive.70012269.tar.zst](https://complete.snapshots.48.club/reth.archive.70012269.tar.zst) | `021dc5cba6b41e3567d0198f099e282a` | 9,700.72G |
 
