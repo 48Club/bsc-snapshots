@@ -13,21 +13,10 @@ Snapshots of the BSC mainnet, containing complete block data, suitable for quick
 
 | File | md5 | Size |
 | --- | --- | --- |
-| [geth.fast.103680000.tar.zst](https://complete.snapshots.48.club/geth.fast.103680000.tar.zst) | `78a58e106478b1dfcb056154eca5a716` | 420.20G |
-| [geth.full.103680000.tar.zst](https://complete.snapshots.48.club/geth.full.103680000.tar.zst) | `3ad913d6e3dfb7edfb15c11e417d4456` | 1207.19G |
+| [geth.fast.105600000.tar.zst](https://complete.snapshots.48.club/geth.fast.105600000.tar.zst) | `32a96218fa4c60307f4138ca2a7ea69e` | 409.09G |
+| [geth.full.105600000.tar.zst](https://complete.snapshots.48.club/geth.full.105600000.tar.zst) | `78b59dca3961d9cd118eebf7fa27f4be` | 1179.43G |
 | [reth.full.70572117.tar.zst](https://complete.snapshots.48.club/reth.full.70572117.tar.zst) | `d427e0946d9a65865db4de9f1fabaf41` | 4288.60G |
 | [reth.archive.70012269.tar.zst](https://complete.snapshots.48.club/reth.archive.70012269.tar.zst) | `021dc5cba6b41e3567d0198f099e282a` | 9,700.72G |
-
-## Incremental Snapshots
-
-The BSC-geth test function is currently unstable and may frequently fail. This issue is known, but no solution is provided for now.
-
-
-~~Incremental snapshots is a feature that allow you to download only the changes made since the last snapshot, significantly reducing the amount of data you need to transfer.~~
-
-~~If this is your first time using the `48Club` snapshots, start by downloading the full snapshot; thereafter, use incremental snapshots to keep your node up to date.~~
-
-~~To enable incremental snapshots, use the `--incr.use-remote` flag, set the remote URL with `--incr.remote-url="https://incremental-snap.48.club/48club-full-incr"` and specify a directory for storing incremental data via `--incr.datadir`.~~
 
 
 ### User Guide
