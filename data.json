@@ -1,8 +1,8 @@
 {
     "geth": {
         "none": {
-            "link": "https://complete.snapshots.48.club/geth.fast.105600000.tar.zst",
-            "md5": "32a96218fa4c60307f4138ca2a7ea69e",
+            "link": "https://complete.snapshots.48.club/geth.fast.106080000.tar.zst",
+            "md5": "4e4bb5beb47490afeec2c75571f57fb1",
             "env": {
                 "GETH_HISTORY_TRANSACTIONS": 600000,
                 "GETH_HISTORY_BLOCKS": 600000,
@@ -12,8 +12,8 @@
             "flags": "--history.transactions=600000 --history.blocks=600000 --history.logs=600000 --tries-verify-mode=none"
         },
         "local": {
-            "link": "https://complete.snapshots.48.club/geth.full.105600000.tar.zst",
-            "md5": "78b59dca3961d9cd118eebf7fa27f4be",
+            "link": "https://complete.snapshots.48.club/geth.full.106080000.tar.zst",
+            "md5": "a05348b7038e07f6549d9755e7d0c034",
             "env": {
                 "GETH_HISTORY_TRANSACTIONS": 600000,
                 "GETH_HISTORY_BLOCKS": 600000,
