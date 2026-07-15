@@ -24,17 +24,11 @@
         }
     },
     "reth": {
-        "full": {
-            "link": "https://complete.snapshots.48.club/reth.full.70572117.tar.zst",
-            "md5": "d427e0946d9a65865db4de9f1fabaf41",
+        "fast": {
+            "link": "https://complete.snapshots.48.club/reth.fast.110146784.tar.zst",
+            "md5": "58565b58c56794d7bf481aa720a95757",
             "env": {},
-            "flags": "--prune.transactionlookup.distance=5760000 --prune.receipts.distance=5760000 --prune.accounthistory.distance=5760000 --prune.storagehistory.distance=5760000 --prune.senderrecovery.full --prune.bodies.pre-merge"
-        },
-        "archive": {
-            "link": "https://complete.snapshots.48.club/reth.archive.70012269.tar.zst",
-            "md5": "021dc5cba6b41e3567d0198f099e282a",
-            "env": {},
-            "flags": "--prune.transactionlookup.before=16000000 --prune.receipts.before=16000000 --prune.accounthistory.before=16000000  --prune.storagehistory.before=16000000 --prune.senderrecovery.full --prune.bodies.pre-merge"
+            "flags": "--engine.skip-state-root-validation --minimal"
         }
     }
 }
