@@ -2,7 +2,7 @@
     "geth": {
         "none": {
             "link": "https://complete.snapshots.48.club/geth.fast.112800000.tar.zst",
-            "md5": "c2b16bf53dafbfddb7d7a2ee051631ec",
+            "md5": "0805e863182520db8ae138053ef0a095",
             "env": {
                 "GETH_HISTORY_TRANSACTIONS": 600000,
                 "GETH_HISTORY_BLOCKS": 600000,
@@ -13,7 +13,7 @@
         },
         "local": {
             "link": "https://complete.snapshots.48.club/geth.full.112800000.tar.zst",
-            "md5": "d299410b8f28d854e6e5d518c911787f",
+            "md5": "1650a667fe2aeb7e466b3f085806e3b8",
             "env": {
                 "GETH_HISTORY_TRANSACTIONS": 600000,
                 "GETH_HISTORY_BLOCKS": 600000,
