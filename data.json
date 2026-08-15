@@ -25,8 +25,8 @@
     },
     "reth": {
         "fast": {
-            "link": "https://complete.snapshots.48.club/reth.fast.110146784.tar.zst",
-            "md5": "58565b58c56794d7bf481aa720a95757",
+            "link": "https://complete.snapshots.48.club/reth.fast.115991001.tar.zst",
+            "md5": "0e9b5b238c68c7b8185ce44424acb098",
             "env": {},
             "flags": "--engine.skip-state-root-validation --minimal"
         }
