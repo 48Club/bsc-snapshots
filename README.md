@@ -13,8 +13,8 @@ Snapshots of the BSC mainnet, containing complete block data, suitable for quick
 
 | File | md5 | Size |
 | --- | --- | --- |
-| [geth.fast.127200000.tar.zst](https://complete.snapshots.48.club/geth.fast.127200000.tar.zst) | `dfd6fab2ebbfbe350e0868f6acb5a2cc` | 454.60G |
-| [geth.full.127200000.tar.zst](https://complete.snapshots.48.club/geth.full.127200000.tar.zst) | `96e8c19e27e8b3c059372326dae88c67` | 1360.51G |
+| [geth.fast.127680000.tar.zst](https://complete.snapshots.48.club/geth.fast.127680000.tar.zst) | `bd7f3f7961c1acd269fd8a68f73e7f7d` | 460.87G |
+| [geth.full.127680000.tar.zst](https://complete.snapshots.48.club/geth.full.127680000.tar.zst) | `62846f270da451e0ed34521b8e9308d2` | 1371.98G |
 | [reth.fast.115991001.tar.zst](https://complete.snapshots.48.club/reth.fast.115991001.tar.zst) | `0e9b5b238c68c7b8185ce44424acb098` | 834.54G |
 
 
