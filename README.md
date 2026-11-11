@@ -9,12 +9,12 @@ Snapshots of the BSC mainnet, containing complete block data, suitable for quick
 
 *Startup requires flags or environment variables provided in data.json.*
 
-*Geth Snapshots are compatible with Geth v1.7.3 and above.*
+*Geth Snapshots are compatible with Geth v1.8.2 and above.*
 
 | File | md5 | Size |
 | --- | --- | --- |
-| [geth.fast.132480000.tar.zst](https://complete.snapshots.48.club/geth.fast.132480000.tar.zst) | `303482c23544774abea0815533badf7d` | 469.31G |
-| [geth.full.132480000.tar.zst](https://complete.snapshots.48.club/geth.full.132480000.tar.zst) | `b5b4775879f01231b122b7fe085492aa` | 1409.10G |
+| [geth.fast.132960000.tar.zst](https://complete.snapshots.48.club/geth.fast.132960000.tar.zst) | `6fe6aa2cdd381c2900cd5a0dd5314685` | 471.28G |
+| [geth.full.132960000.tar.zst](https://complete.snapshots.48.club/geth.full.132960000.tar.zst) | `3a7f1de6267d07a1a6bac55a62489075` | 1417.18G |
 | [reth.fast.115991001.tar.zst](https://complete.snapshots.48.club/reth.fast.115991001.tar.zst) | `0e9b5b238c68c7b8185ce44424acb098` | 834.54G |
 
 
